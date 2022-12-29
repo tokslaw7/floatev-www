@@ -1,0 +1,21 @@
+version: '3'
+services:
+  floatev-www:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    restart: unless-stopped
+    ports:
+      - 3820:3000
+    extra_hosts:
+      - backend.wrenchboard.api.live:10.10.33.15
+      - backend.wrenchboard.api.test:10.10.33.15
+      # #- backend.wrenchboard.api.live:172.31.4.27
+      # #- backend.wrenchboard.api.test:10.20.30.27
+      - apigateway.wrenchboard.app.dev.fluxtra.net:10.20.30.19
+      - apigateway.wrenchboard.app.lotus.fluxtra.net:172.31.4.19
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+volumes:
+  src:
+ 
