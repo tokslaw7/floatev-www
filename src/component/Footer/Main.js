@@ -82,7 +82,7 @@ const Main = ({footer}) => {
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="/about">About us</Link></li>
                                     <li><Link to="#">Services</Link></li>
-                                    <li><Link to="/blog">Blog</Link></li>
+                                    <li><a href={site.dash_url_blog}>Blog</a></li>
                                     <li><Link to="/contact">Contact us</Link></li>
                                 </ul>
                             </div>
