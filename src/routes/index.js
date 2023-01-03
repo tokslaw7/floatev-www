@@ -82,7 +82,7 @@ const Routing = () => {
         <>
             {homepage && <Navbar navbar = {navbar}/>}
             <Routes>
-                <Route path="/" element={<Home setfooter = {setfooter} setnavbar = {setnavbar} setbrdcum = {setbrdcum}/>} />
+                <Route path="/" element={<HomeGredient setfooter = {setfooter} setnavbar = {setnavbar} setbrdcum = {setbrdcum}/>} />
                 <Route path="/about" element={< AboutUs setnavbar = {setnavbar} brdcum = {brdcum}/>} />
                 <Route path="/review" element={< Review setnavbar = {setnavbar} brdcum = {brdcum} />} />
                 <Route path="/contact" element={< Contact brdcum = {brdcum}/>} />
