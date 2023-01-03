@@ -13,6 +13,7 @@ function getConfig() {
             "facebook_link": 'https://www.facebook.com/tryfloat',
             "twitter_link": 'https://twitter.com/tryfloat/',
             "linked_link": "https://www.linkedin.com/company/float-mobility/",
+            //"instagram_link": "https://www.instagram.com/company/float-mobility/",
             "support_email": 'support@float.sg',
             "support_phone": '404 855-7966',
             "support_us_address": '1070 Cresta Way Unit 2, San Rafael CA 94903',

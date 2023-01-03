@@ -5,8 +5,10 @@ import blueapp from '../../assets/images/appstore_blue.png'
 import blue from '../../assets/images/googleplay_blue.png'
 import logo from '../../assets/images/footer_logo.png'
 import top from  '../../assets/images/go_top.png'
+import getConfig from "../Config/config"
 
 const Main = ({footer}) => {
+    var site = getConfig()[0];
     
   return (
     <>
@@ -49,14 +51,27 @@ const Main = ({footer}) => {
                             <div className="abt_side">
                                 <div className="logo"> <img src={logo} alt="image" /></div>
                                 <ul>
-                                <li><Link to="#">support@example.com</Link></li>
-                                <li><Link to="#">+1-900-123 4567</Link></li>
+                                <li><Link to="#">support@float.sg</Link></li>
+                                <li><Link to="#">404 855-7966</Link></li>
                                 </ul>
                                 <ul className="social_media">
-                                    <li><Link to="#"><i className="icofont-facebook"></i></Link></li>
-                                    <li><Link to="#"><i className="icofont-twitter"></i></Link></li>
+                                        <li>
+                                            <a href={site.facebook_link}>
+                                                <i className="icofont-facebook"></i>
+                                            </a>
+                                        </li>
+                                    <li>
+                                        <a href={site.twitter_link}>
+                                            <i className="icofont-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href={site.linked_link}>
+                                            <i className="icofont-linkedin"></i>
+                                        </a>
+                                    </li>
                                     <li><Link to="#"><i className="icofont-instagram"></i></Link></li>
-                                    <li><Link to="#"><i className="icofont-pinterest"></i></Link></li>
+
                                 </ul>
                             </div>
                         </div>
@@ -74,7 +89,7 @@ const Main = ({footer}) => {
                         </div>
                         <div className="col-lg-3 col-md-6 col-12">
                             <div className="links">
-                            <h3>Help & Suport</h3>
+                            <h3>Help & Support</h3>
                                 <ul>
                                 <li><Link to="/faq">FAQs</Link></li>
                                 <li><Link to="#">Support</Link></li>
@@ -108,11 +123,11 @@ const Main = ({footer}) => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
-                            <p>© Copyrights 2022. All rights reserved.</p>
+                            <p>© Copyrights 2023 FloatEV. All rights reserved.</p>
                         </div>
-                        <div className="col-md-6">
-                            <p className="developer_text">Design & developed by <Link to="https://themeforest.net/user/kalanidhithemes" target="blank">Kalanidhi Themes</Link></p>
-                        </div>
+                        {/*<div className="col-md-6">*/}
+                        {/*    <p className="developer_text">Design & developed by <Link to="https://themeforest.net/user/kalanidhithemes" target="blank">Kalanidhi Themes</Link></p>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
             </div>
@@ -239,7 +254,7 @@ const Main = ({footer}) => {
                             </ul>
                         </div>
                     </div>
-    
+
                     <div className="col-lg-3 col-md-6 col-12">
                         <div className="links">
                         <h3>Help & Suport</h3>
@@ -252,7 +267,7 @@ const Main = ({footer}) => {
                             </ul>
                         </div>
                     </div>
-    
+
                     <div className="col-lg-2 col-md-6 col-12">
                         <div className="try_out">
                             <h3>Let’s Try Out</h3>
@@ -285,13 +300,13 @@ const Main = ({footer}) => {
                 </div>
                 </div>
             </div>
-    
+
             <div className="go_top">
                 <span><img src="assets/images/go_top-one.png" alt="image" /></span>
             </div>
         </footer>  }
 
-        {footer.f4 && 
+        {footer.f4 &&
         <footer className="video-footer-two">
             <div className="top_footer" id="contact">
                 <div className="container">
@@ -323,7 +338,7 @@ const Main = ({footer}) => {
                             </ul>
                         </div>
                     </div>
-    
+
                     <div className="col-lg-3 col-md-6 col-12">
                         <div className="links">
                         <h3>Help & Suport</h3>
@@ -336,7 +351,7 @@ const Main = ({footer}) => {
                             </ul>
                         </div>
                     </div>
-    
+
                     <div className="col-lg-2 col-md-6 col-12">
                         <div className="try_out">
                             <h3>Let’s Try Out</h3>
@@ -369,7 +384,7 @@ const Main = ({footer}) => {
                 </div>
                 </div>
             </div>
-    
+
             <div className="go_top">
                 <span><img src="assets/images/go_top-one.png" alt="image" /></span>
             </div>
