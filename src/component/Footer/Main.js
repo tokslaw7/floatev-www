@@ -103,11 +103,11 @@ const Main = ({footer}) => {
                             <div className="try_out">
                                 <h3>Let’s Try Out</h3>
                                 <ul className="app_btn">
-                                <li>
-                                    <Link to="#">
-                                       <img src={blueapp} alt="image" />
-                                    </Link>
-                                </li>
+                                    <li>
+                                        <a href="https://apps.apple.com/us/app/float-mobility/id1465369130">
+                                            <img src={blueapp} alt="image" />
+                                        </a>
+                                    </li>
                                 <li>
                                     <Link to="#">
                                        <img src={blue} alt="image" />
