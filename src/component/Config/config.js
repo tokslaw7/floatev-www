@@ -9,7 +9,7 @@ function getConfig() {
             "dash_url_login": "https://dashboard.wrenchboard.com/login",
             "dash_url_signup": "https://dashboard.wrenchboard.com/signup",
             "android_app": 'https://play.google.com/store/apps/details?id=com.wrenchboard.users',
-            "apple_app": 'https://itunes.apple.com/us/app/wrenchboard/id1435718367?ls=1&mt=8',
+            "apple_app": 'https://apps.apple.com/us/app/float-mobility/id1465369130',
             "facebook_link": 'https://www.facebook.com/tryfloat',
             "twitter_link": 'https://twitter.com/tryfloat/',
             "linked_link": "https://www.linkedin.com/company/float-mobility/",

@@ -104,7 +104,7 @@ const Main = ({footer}) => {
                                 <h3>Let’s Try Out</h3>
                                 <ul className="app_btn">
                                     <li>
-                                        <a href="https://apps.apple.com/us/app/float-mobility/id1465369130">
+                                        <a href={site.apple_app}>
                                             <img src={blueapp} alt="image" />
                                         </a>
                                     </li>
