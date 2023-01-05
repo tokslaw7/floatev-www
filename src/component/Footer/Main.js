@@ -3,7 +3,7 @@ import React  from 'react'
 import line from '../../assets/images/anim_line.png'
 import blueapp from '../../assets/images/appstore_blue.png'
 import blue from '../../assets/images/googleplay_blue.png'
-import logo from '../../assets/images/footer_logo.png'
+import logo from '../../assets/images/float-travel-app-logo.png'
 import top from  '../../assets/images/go_top.png'
 import getConfig from "../Config/config"
 
@@ -12,25 +12,6 @@ const Main = ({footer}) => {
     
   return (
     <>
-        <section className="newsletter_section">
-            <div className="container">
-                <div className="newsletter_box">
-                    <div className="section_title" data-aos="fade-in" data-aos-duration="1500" data-aos-delay="100">
-                        <h2>Subscribe newsletter</h2>
-                        <p>Be the first to recieve all latest post in your inbox</p>
-                    </div>
-                    <form action="" data-aos="fade-in" data-aos-duration="1500" data-aos-delay="100">
-                        <div className="form-group">
-                            <input type="email" className="form-control" placeholder="Enter your email"/>
-                        </div>
-                        <div className="form-group">
-                            <button className="btn">SUBMIT</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </section>
-
         {footer.f1 && 
         <footer>
             <div className="top_footer" id="contact">
@@ -51,8 +32,8 @@ const Main = ({footer}) => {
                             <div className="abt_side">
                                 <div className="logo"> <img src={logo} alt="image" /></div>
                                 <ul>
-                                <li><Link to="#">support@float.sg</Link></li>
-                                <li><Link to="#">404 855-7966</Link></li>
+                                <li><Link to="#">{site.support_email}</Link></li>
+                                <li><Link to="#">{site.support_phone}</Link></li>
                                 </ul>
                                 <ul className="social_media">
                                         <li>

@@ -80,72 +80,72 @@ const Main = ({setnavbar,setfooter}) => {
             </div>
         </section>
 
-        <section className="row_am features_section features-gredient" id="features">
-            <div className="feature_section_bg"> <img src="assets/images/section-bg.png" alt="image" /> </div>
-            <div className="container">
-                <div className="features_inner">
-                    <div className="feature_img" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-                        <img src="assets/images/device-feature.png" alt="image" />
-                    </div>
-                    <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
-                        <h2><span>Features</span> that makes app different!</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typese tting <br/> indus orem Ipsum has beenthe standard dummy.</p>
-                    </div>
-                    <div className="features_block">
-                        <div className="row">
-                        <div className="col-md-3">
-                            <div className="feature_box" data-aos="fade-up" data-aos-duration="1500">
-                                <div className="image">
-                                <img src="assets/images/secure.png" alt="image" />
-                                </div>
-                                <div className="text">
-                                <h4>Secure data</h4>
-                                <p>Lorem Ipsum is simply dummy text of the printing and type setting indus ideas.</p>
-                                </div>
-                            </div>
-                        </div>
+        {/*<section className="row_am features_section features-gredient" id="features">*/}
+        {/*    <div className="feature_section_bg"> <img src="assets/images/section-bg.png" alt="image" /> </div>*/}
+        {/*    <div className="container">*/}
+        {/*        <div className="features_inner">*/}
+        {/*            <div className="feature_img" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">*/}
+        {/*                <img src="assets/images/device-feature.png" alt="image" />*/}
+        {/*            </div>*/}
+        {/*            <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">*/}
+        {/*                <h2><span>Features</span> that makes app different!</h2>*/}
+        {/*                <p>Lorem Ipsum is simply dummy text of the printing and typese tting <br/> indus orem Ipsum has beenthe standard dummy.</p>*/}
+        {/*            </div>*/}
+        {/*            <div className="features_block">*/}
+        {/*                <div className="row">*/}
+        {/*                <div className="col-md-3">*/}
+        {/*                    <div className="feature_box" data-aos="fade-up" data-aos-duration="1500">*/}
+        {/*                        <div className="image">*/}
+        {/*                        <img src="assets/images/secure.png" alt="image" />*/}
+        {/*                        </div>*/}
+        {/*                        <div className="text">*/}
+        {/*                        <h4>Secure data</h4>*/}
+        {/*                        <p>Lorem Ipsum is simply dummy text of the printing and type setting indus ideas.</p>*/}
+        {/*                        </div>*/}
+        {/*                    </div>*/}
+        {/*                </div>*/}
 
-                        <div className="col-md-3">
-                            <div className="feature_box" data-aos="fade-up" data-aos-duration="1700">
-                                <div className="image">
-                                <img src="assets/images/abt_functional.png" alt="image" />
-                                </div>
-                                <div className="text">
-                                <h4>Automate everything</h4>
-                                <p>Simply dummy text of the printing and typesetting indus lorem Ipsum is dummy.</p>
-                                </div>
-                            </div>
-                        </div>
+        {/*                <div className="col-md-3">*/}
+        {/*                    <div className="feature_box" data-aos="fade-up" data-aos-duration="1700">*/}
+        {/*                        <div className="image">*/}
+        {/*                        <img src="assets/images/abt_functional.png" alt="image" />*/}
+        {/*                        </div>*/}
+        {/*                        <div className="text">*/}
+        {/*                        <h4>Automate everything</h4>*/}
+        {/*                        <p>Simply dummy text of the printing and typesetting indus lorem Ipsum is dummy.</p>*/}
+        {/*                        </div>*/}
+        {/*                    </div>*/}
+        {/*                </div>*/}
 
-                        <div className="col-md-3">
-                            <div className="feature_box" data-aos="fade-up" data-aos-duration="1900">
-                                <div className="image">
-                                <img src="assets/images/communication.png" alt="image" />
-                                </div>
-                                <div className="text">
-                                <h4>Secure data</h4>
-                                <p>Lorem Ipsum is simply dummy text of the printing and type setting indus ideas.</p>
-                                </div>
-                            </div>
-                        </div>
+        {/*                <div className="col-md-3">*/}
+        {/*                    <div className="feature_box" data-aos="fade-up" data-aos-duration="1900">*/}
+        {/*                        <div className="image">*/}
+        {/*                        <img src="assets/images/communication.png" alt="image" />*/}
+        {/*                        </div>*/}
+        {/*                        <div className="text">*/}
+        {/*                        <h4>Secure data</h4>*/}
+        {/*                        <p>Lorem Ipsum is simply dummy text of the printing and type setting indus ideas.</p>*/}
+        {/*                        </div>*/}
+        {/*                    </div>*/}
+        {/*                </div>*/}
 
-                        <div className="col-md-3">
-                            <div className="feature_box" data-aos="fade-up" data-aos-duration="1900">
-                                <div className="image">
-                                <img src="assets/images/abt_support.png" alt="image" />
-                                </div>
-                                <div className="text">
-                                <h4>Secure data</h4>
-                                <p>Simply dummy text of the printing and typesetting indus lorem Ipsum is dummy.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        {/*                <div className="col-md-3">*/}
+        {/*                    <div className="feature_box" data-aos="fade-up" data-aos-duration="1900">*/}
+        {/*                        <div className="image">*/}
+        {/*                        <img src="assets/images/abt_support.png" alt="image" />*/}
+        {/*                        </div>*/}
+        {/*                        <div className="text">*/}
+        {/*                        <h4>Secure data</h4>*/}
+        {/*                        <p>Simply dummy text of the printing and typesetting indus lorem Ipsum is dummy.</p>*/}
+        {/*                        </div>*/}
+        {/*                    </div>*/}
+        {/*                </div>*/}
+        {/*            </div>*/}
 
-                    </div>
-                </div>
-            </div>
-        </section>
+        {/*            </div>*/}
+        {/*        </div>*/}
+        {/*    </div>*/}
+        {/*</section>*/}
         < AboutApp />
         < Design gredient = {true} />
         <section className="row_am how_it_works gredient-work" id="how_it_work">

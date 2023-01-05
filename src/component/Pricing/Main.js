@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import React , {useState ,useEffect} from 'react'
-import Pricing from '../HomeMain/Pricing/Main'
+//import Pricing from '../HomeMain/Pricing/Main'
 import Bredcrumb from '../Bredcrumb/Main'
 import BGImg from "../../assets/images/bread_crumb_bg.png"
 import BGImg1 from "../../assets/images/bread_crumb_bg_one.png"
