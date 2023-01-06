@@ -214,74 +214,74 @@ const Main = ({brdcum}) => {
                 </div>
             </div>
         </section>
-        <section className="row_am experts_team_section">
-            <div className="container">
-                <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-                    <h2> Meet our <span> experts </span></h2>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typese tting <br/> indus orem Ipsum has beenthe standard dummy.
-                    </p>
-                </div>
-                <div className="row">
-                    <div className="col-md-6 col-lg-3"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-                        <div className="experts_box">
-                        <img src="assets/images/experts_01.png" alt="image"/>
-                        <div className="text">
-                            <h3>Steav Joe</h3>
-                            <span>CEO & Co-Founder</span>
-                            <ul className="social_media">
-                            <li><Link to="#"><i className="icofont-facebook"></i></Link></li>
-                            <li><Link to="#"><i className="icofont-twitter"></i></Link></li>
-                            <li><Link to="#"><i className="icofont-instagram"></i></Link></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6 col-lg-3"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
-                        <div className="experts_box">
-                        <img src="assets/images/experts_02.png" alt="image"/>
-                        <div className="text">
-                            <h3>Mark Dele</h3>
-                            <span>Co-Founder</span>
-                            <ul className="social_media">
-                            <li><Link to="#"><i className="icofont-facebook"></i></Link></li>
-                            <li><Link to="#"><i className="icofont-twitter"></i></Link></li>
-                            <li><Link to="#"><i className="icofont-instagram"></i></Link></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6 col-lg-3"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
-                        <div className="experts_box">
-                        <img src="assets/images/experts_03.png" alt="image"/>
-                        <div className="text">
-                            <h3>Jolley Sihe</h3>
-                            <span>Business Developer</span>
-                            <ul className="social_media">
-                            <li><Link to="#"><i className="icofont-facebook"></i></Link></li>
-                            <li><Link to="#"><i className="icofont-twitter"></i></Link></li>
-                            <li><Link to="#"><i className="icofont-instagram"></i></Link></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                    <div className="col-md-6 col-lg-3"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
-                        <div className="experts_box">
-                        <img src="assets/images/experts_04.png" alt="image"/>
-                        <div className="text">
-                            <h3>Rimy Nail</h3>
-                            <span>Marketing & Sales</span>
-                            <ul className="social_media">
-                            <li><Link to="#"><i className="icofont-facebook"></i></Link></li>
-                            <li><Link to="#"><i className="icofont-twitter"></i></Link></li>
-                            <li><Link to="#"><i className="icofont-instagram"></i></Link></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        {/*<section className="row_am experts_team_section">*/}
+        {/*    <div className="container">*/}
+        {/*        <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">*/}
+        {/*            <h2> Meet our <span> experts </span></h2>*/}
+        {/*            <p>*/}
+        {/*                Lorem Ipsum is simply dummy text of the printing and typese tting <br/> indus orem Ipsum has beenthe standard dummy.*/}
+        {/*            </p>*/}
+        {/*        </div>*/}
+        {/*        <div className="row">*/}
+        {/*            <div className="col-md-6 col-lg-3"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">*/}
+        {/*                <div className="experts_box">*/}
+        {/*                <img src="assets/images/experts_01.png" alt="image"/>*/}
+        {/*                <div className="text">*/}
+        {/*                    <h3>Steav Joe</h3>*/}
+        {/*                    <span>CEO & Co-Founder</span>*/}
+        {/*                    <ul className="social_media">*/}
+        {/*                    <li><Link to="#"><i className="icofont-facebook"></i></Link></li>*/}
+        {/*                    <li><Link to="#"><i className="icofont-twitter"></i></Link></li>*/}
+        {/*                    <li><Link to="#"><i className="icofont-instagram"></i></Link></li>*/}
+        {/*                    </ul>*/}
+        {/*                </div>*/}
+        {/*                </div>*/}
+        {/*            </div>*/}
+        {/*            <div className="col-md-6 col-lg-3"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">*/}
+        {/*                <div className="experts_box">*/}
+        {/*                <img src="assets/images/experts_02.png" alt="image"/>*/}
+        {/*                <div className="text">*/}
+        {/*                    <h3>Mark Dele</h3>*/}
+        {/*                    <span>Co-Founder</span>*/}
+        {/*                    <ul className="social_media">*/}
+        {/*                    <li><Link to="#"><i className="icofont-facebook"></i></Link></li>*/}
+        {/*                    <li><Link to="#"><i className="icofont-twitter"></i></Link></li>*/}
+        {/*                    <li><Link to="#"><i className="icofont-instagram"></i></Link></li>*/}
+        {/*                    </ul>*/}
+        {/*                </div>*/}
+        {/*                </div>*/}
+        {/*            </div>*/}
+        {/*            <div className="col-md-6 col-lg-3"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">*/}
+        {/*                <div className="experts_box">*/}
+        {/*                <img src="assets/images/experts_03.png" alt="image"/>*/}
+        {/*                <div className="text">*/}
+        {/*                    <h3>Jolley Sihe</h3>*/}
+        {/*                    <span>Business Developer</span>*/}
+        {/*                    <ul className="social_media">*/}
+        {/*                    <li><Link to="#"><i className="icofont-facebook"></i></Link></li>*/}
+        {/*                    <li><Link to="#"><i className="icofont-twitter"></i></Link></li>*/}
+        {/*                    <li><Link to="#"><i className="icofont-instagram"></i></Link></li>*/}
+        {/*                    </ul>*/}
+        {/*                </div>*/}
+        {/*                </div>*/}
+        {/*            </div>*/}
+        {/*            <div className="col-md-6 col-lg-3"  data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">*/}
+        {/*                <div className="experts_box">*/}
+        {/*                <img src="assets/images/experts_04.png" alt="image"/>*/}
+        {/*                <div className="text">*/}
+        {/*                    <h3>Rimy Nail</h3>*/}
+        {/*                    <span>Marketing & Sales</span>*/}
+        {/*                    <ul className="social_media">*/}
+        {/*                    <li><Link to="#"><i className="icofont-facebook"></i></Link></li>*/}
+        {/*                    <li><Link to="#"><i className="icofont-twitter"></i></Link></li>*/}
+        {/*                    <li><Link to="#"><i className="icofont-instagram"></i></Link></li>*/}
+        {/*                    </ul>*/}
+        {/*                </div>*/}
+        {/*                </div>*/}
+        {/*            </div>*/}
+        {/*        </div>*/}
+        {/*    </div>*/}
+        {/*</section>*/}
         <section className="row_am query_section">
             <div className="query_inner" data-aos="fade-in" data-aos-duration="1500">
                 <div className="container">
@@ -297,7 +297,7 @@ const Main = ({brdcum}) => {
                 </div>
             </div>
         </section>
-        <Trusted />
+        {/*<Trusted />*/}
         
         {ytShow &&
         <>

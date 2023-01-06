@@ -48,7 +48,7 @@ const Main = ({navbar}) => {
                                 <Link smooth to="#how_it_work" className="nav-link">How it works</Link>
                             </li>
                             <li className="nav-item has_dropdown" >
-                                <Link to="#" className="nav-link">Pages</Link>
+                                <Link to="#" className="nav-link">About</Link>
                                 {/*<span className="drp_btn"><i className="icofont-rounded-down"></i></span>*/}
                                 <div className="sub_menu">
                                     <ul>
@@ -59,7 +59,7 @@ const Main = ({navbar}) => {
                                 </div>
                             </li>
                                 <li className="nav-item">
-                                    <li><a href={site.dash_url_blog} className="nav-link">Blog</a></li>
+                                    <a href={site.dash_url_blog} className="nav-link">Blog</a>
                                 </li>
                             <li className="nav-item">
                                 <Link to="/contact" className="nav-link" >Contact</Link>
@@ -79,7 +79,7 @@ const Main = ({navbar}) => {
                                 <Link smooth to="#how_it_work" className="nav-link">How it works</Link>
                             </li>
                             <li className="nav-item has_dropdown" onClick={() => setShow1(show1 === true ? false : true)}>
-                                <Link to="#" className="nav-link">Pages</Link>
+                                <Link to="#" className="nav-link">About</Link>
                                 <span className="drp_btn"><i className="icofont-rounded-down"></i></span>
                                 <div className="sub_menu" style={{ display: show1 ? "block" : "none" }}>
                                     <ul>
@@ -124,7 +124,7 @@ const Main = ({navbar}) => {
 
                     <div className={`collapse navbar-collapse ${mobile && "show"}`} >
                         <div className="navbar-nav ml-auto">
-                            <li className="nav-item has_dropdown">
+                            <li className="nav-item">
                                 <Link to="/" className="nav-link" >Home </Link>
                                 <span className="drp_btn" onClick={() => setmobile(mobile === true ? false : true)} style={{ display: show ? "block" : "none" }}><i className="icofont-rounded-down"></i></span>
                                 <div className="sub_menu">
@@ -140,7 +140,7 @@ const Main = ({navbar}) => {
                                 <Link smooth to="#how_it_work"  className="nav-link">How it works</Link>
                             </li>
                             <li className="nav-item has_dropdown">
-                                <Link to="#" className="nav-link">Pages</Link>
+                                <Link to="#" className="nav-link">About</Link>
                                 <span className="drp_btn"><i className="icofont-rounded-down"></i></span>
                                 <div className="sub_menu">
                                     <ul>
@@ -151,14 +151,15 @@ const Main = ({navbar}) => {
                                     </ul>
                                 </div>
                             </li>
-                            <li className="nav-item has_dropdown">
-                                <Link to="#" className="nav-link">Blog</Link>
-                                {/*<span className="drp_btn"><i className="icofont-rounded-down"></i></span>*/}
-                                <div className="sub_menu">
-                                <ul>
-                                    <li><a href={site.dash_url_blog} className="nav-link">Blog</a></li>
-                                </ul>
-                                </div>
+                            <li className="nav-item">
+                                <a href={site.dash_url_blog} className="nav-link">Blog</a>
+                                {/*<Link to="#" className="nav-link">Blog</Link>*/}
+                                {/*/!*<span className="drp_btn"><i className="icofont-rounded-down"></i></span>*!/*/}
+                                {/*<div className="sub_menu">*/}
+                                {/*<ul>*/}
+                                {/*    <li><a href={site.dash_url_blog} className="nav-link">Blog</a></li>*/}
+                                {/*</ul>*/}
+                                {/*</div>*/}
                             </li>
                             <li className="nav-item">
                                 <Link to="/contact" className="nav-link" >Contact</Link>
@@ -531,11 +532,11 @@ const Main = ({navbar}) => {
                                     <li className="nav-item has_dropdown">
                                         <Link to="/" className="nav-link" >Home </Link>
                                         <span className="drp_btn" onClick={() => setmobile(mobile === true ? false : true)} style={{ display: show ? "block" : "none" }}><i className="icofont-rounded-down"></i></span>
-                                        <div className="sub_menu">
-                                            <ul>
-                                                <li><Link to="/" className="nav-link" >Home </Link></li>
-                                            </ul>
-                                        </div>
+                                        {/*<div className="sub_menu">*/}
+                                        {/*    <ul>*/}
+                                        {/*        <li><Link to="/" className="nav-link" >Home </Link></li>*/}
+                                        {/*    </ul>*/}
+                                        {/*</div>*/}
                                     </li>
                                     {/*<li className="nav-item">*/}
                                     {/*    <Link smooth to="#features" className="nav-link">Features</Link>*/}
@@ -544,7 +545,7 @@ const Main = ({navbar}) => {
                                         <Link smooth to="how_it_work"  className="nav-link">How it works</Link>
                                     </li>
                                     <li className="nav-item has_dropdown">
-                                        <Link to="#" className="nav-link">Pages</Link>
+                                        <Link to="#" className="nav-link">About</Link>
                                         <span className="drp_btn"><i className="icofont-rounded-down"></i></span>
                                         <div className="sub_menu">
                                             <ul>
@@ -555,14 +556,8 @@ const Main = ({navbar}) => {
                                             </ul>
                                         </div>
                                     </li>
-                                    <li className="nav-item has_dropdown">
-                                        <Link to="#" className="nav-link">Blog</Link>
-                                        <span className="drp_btn"><i className="icofont-rounded-down"></i></span>
-                                        <div className="sub_menu">
-                                            <ul>
-                                                <li><a href={site.dash_url_blog} className="nav-link">Blog</a></li>
-                                            </ul>
-                                        </div>
+                                    <li className="nav-item">
+                                        <a href={site.dash_url_blog} className="nav-link">Blog</a>
                                     </li>
                                     <li className="nav-item">
                                         <Link to="/contact" className="nav-link" >Contact</Link>

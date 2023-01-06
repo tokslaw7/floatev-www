@@ -127,16 +127,31 @@ const Main = ({footer}) => {
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="abt_side">
-                                <div className="logo"> <img src="assets/images/footer_logo.png" alt="image" /></div>
+                                <div className="logo"> <img src={logo} alt="image" /></div>
                                 <ul>
-                                <li><Link to="#">support@example.com</Link></li>
-                                <li><Link to="#">+1-900-123 4567</Link></li>
+                                    <li><Link to="#">{site.support_email}</Link></li>
+                                    <li><Link to="#">{site.support_phone}</Link></li>
                                 </ul>
                                 <ul className="social_media">
-                                    <li><Link to="#"><i className="icofont-facebook"></i></Link></li>
-                                    <li><Link to="#"><i className="icofont-twitter"></i></Link></li>
-                                    <li><Link to="#"><i className="icofont-instagram"></i></Link></li>
-                                    <li><Link to="#"><i className="icofont-pinterest"></i></Link></li>
+
+                                        <li>
+                                            <a href={site.facebook_link}>
+                                                <i className="icofont-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href={site.twitter_link}>
+                                                <i className="icofont-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href={site.linked_link}>
+                                                <i className="icofont-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li><Link to="#"><i className="icofont-instagram"></i></Link></li>
+
+
                                 </ul>
                             </div>
                         </div>
@@ -147,7 +162,7 @@ const Main = ({footer}) => {
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="/about">About us</Link></li>
                                     <li><Link to="#">Services</Link></li>
-                                    <li><Link to="/blog">Blog</Link></li>
+                                    <li><a href={site.dash_url_blog}>Blog</a></li>
                                     <li><Link to="/contact">Contact us</Link></li>
                                 </ul>
                             </div>
@@ -158,7 +173,6 @@ const Main = ({footer}) => {
                                 <ul>
                                 <li><Link to="/faq">FAQs</Link></li>
                                 <li><Link to="#">Support</Link></li>
-                                <li><Link to="#how_it_work">How it works</Link></li>
                                 <li><Link to="#">Terms & conditions</Link></li>
                                 <li><Link to="#">Privacy policy</Link></li>
                                 </ul>
@@ -169,9 +183,9 @@ const Main = ({footer}) => {
                                 <h3>Let’s Try Out</h3>
                                 <ul className="app_btn">
                                 <li>
-                                    <Link to="#">
-                                       <img src="assets/images/appstore_blue.png" alt="image" />
-                                    </Link>
+                                    <a href={site.apple_app}>
+                                        <img src={blueapp} alt="image" />
+                                    </a>
                                 </li>
                                 <li>
                                     <Link to="#">
@@ -189,11 +203,11 @@ const Main = ({footer}) => {
                     
                     <div className="row">
                         <div className="col-md-6">
-                            <p>© Copyrights 2022. All rights reserved.</p>
+                            <p>© Copyrights 2023 FloatEV. All rights reserved.</p>
                         </div>
-                        <div className="col-md-6">
-                            <p className="developer_text">Design & developed by <Link to="https://themeforest.net/user/kalanidhithemes" target="blank">Kalanidhi Themes</Link></p>
-                        </div>
+                        {/*<div className="col-md-6">*/}
+                        {/*    <p className="developer_text">Design & developed by <Link to="https://themeforest.net/user/kalanidhithemes" target="blank">Kalanidhi Themes</Link></p>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
             </div>
@@ -210,16 +224,31 @@ const Main = ({footer}) => {
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-12">
                         <div className="abt_side">
-                            <div className="logo"> <img src="assets/images/footer_logo-one.png" alt="image" /></div>
+                            <div className="logo"> <img src={logo} alt="image" /></div>
                             <ul>
-                            <li><Link to="#">support@example.com</Link></li>
-                            <li><Link to="#">+1-900-123 4567</Link></li>
+                                <li><Link to="#">{site.support_email}</Link></li>
+                                <li><Link to="#">{site.support_phone}</Link></li>
                             </ul>
                             <ul className="social_media">
-                                <li><Link to="#"><i className="icofont-facebook"></i></Link></li>
-                                <li><Link to="#"><i className="icofont-twitter"></i></Link></li>
-                                <li><Link to="#"><i className="icofont-instagram"></i></Link></li>
-                                <li><Link to="#"><i className="icofont-pinterest"></i></Link></li>
+
+                                    <li>
+                                        <a href={site.facebook_link}>
+                                            <i className="icofont-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href={site.twitter_link}>
+                                            <i className="icofont-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href={site.linked_link}>
+                                            <i className="icofont-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li><Link to="#"><i className="icofont-instagram"></i></Link></li>
+
+
                             </ul>
                         </div>
                     </div>
@@ -230,7 +259,7 @@ const Main = ({footer}) => {
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/about">About us</Link></li>
                                 <li><Link to="#">Services</Link></li>
-                                <li><Link to="/blog">Blog</Link></li>
+                                <li><a href={site.dash_url_blog}>Blog</a></li>
                                 <li><Link to="/contact">Contact us</Link></li>
                             </ul>
                         </div>
@@ -238,13 +267,13 @@ const Main = ({footer}) => {
 
                     <div className="col-lg-3 col-md-6 col-12">
                         <div className="links">
-                        <h3>Help & Suport</h3>
+                            <h3>Help & Support</h3>
                             <ul>
-                            <li><Link to="/faq">FAQs</Link></li>
-                            <li><Link to="#">Support</Link></li>
-                            <li><Link to="#how_it_work">How it works</Link></li>
-                            <li><Link to="#">Terms & conditions</Link></li>
-                            <li><Link to="#">Privacy policy</Link></li>
+                                <li><Link to="/faq">FAQs</Link></li>
+                                <li><Link to="#">Support</Link></li>
+                                <li><Link to="#how_it_work">How it works</Link></li>
+                                <li><Link to="#">Terms & conditions</Link></li>
+                                <li><Link to="#">Privacy policy</Link></li>
                             </ul>
                         </div>
                     </div>
@@ -254,9 +283,9 @@ const Main = ({footer}) => {
                             <h3>Let’s Try Out</h3>
                             <ul className="app_btn">
                             <li>
-                                <Link to="#">
-                                <img src="assets/images/appstore_blue.png" alt="image" />
-                                </Link>
+                                <a href={site.apple_app}>
+                                    <img src={blueapp} alt="image" />
+                                </a>
                             </li>
                             <li>
                                 <Link to="#">
@@ -273,11 +302,11 @@ const Main = ({footer}) => {
                 <div className="container">
                 <div className="row">
                     <div className="col-md-6">
-                        <p>© Copyrights 2022. All rights reserved.</p>
+                        <p>© Copyrights 2023 FloatEV. All rights reserved.</p>
                     </div>
-                    <div className="col-md-6">
-                        <p className="developer_text">Design & developed by <Link to="https://themeforest.net/user/kalanidhithemes" target="blank">Kalanidhi Themes</Link></p>
-                    </div>
+                    {/*<div className="col-md-6">*/}
+                    {/*    <p className="developer_text">Design & developed by <Link to="https://themeforest.net/user/kalanidhithemes" target="blank">Kalanidhi Themes</Link></p>*/}
+                    {/*</div>*/}
                 </div>
                 </div>
             </div>
@@ -294,16 +323,31 @@ const Main = ({footer}) => {
                 <div className="row">
                     <div className="col-lg-4 col-md-6 col-12">
                         <div className="abt_side">
-                            <div className="logo"> <img src="assets/images/footer_logo.png" alt="image" /></div>
+                            <div className="logo"> <img src={logo} alt="image" /></div>
                             <ul>
-                            <li><Link to="#">support@example.com</Link></li>
-                            <li><Link to="#">+1-900-123 4567</Link></li>
+                                <li><Link to="#">{site.support_email}</Link></li>
+                                <li><Link to="#">{site.support_phone}</Link></li>
                             </ul>
                             <ul className="social_media">
-                                <li><Link to="#"><i className="icofont-facebook"></i></Link></li>
-                                <li><Link to="#"><i className="icofont-twitter"></i></Link></li>
-                                <li><Link to="#"><i className="icofont-instagram"></i></Link></li>
-                                <li><Link to="#"><i className="icofont-pinterest"></i></Link></li>
+
+                                    <li>
+                                        <a href={site.facebook_link}>
+                                            <i className="icofont-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href={site.twitter_link}>
+                                            <i className="icofont-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href={site.linked_link}>
+                                            <i className="icofont-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li><Link to="#"><i className="icofont-instagram"></i></Link></li>
+
+
                             </ul>
                         </div>
                     </div>
@@ -314,7 +358,7 @@ const Main = ({footer}) => {
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/about">About us</Link></li>
                                 <li><Link to="#">Services</Link></li>
-                                <li><Link to="/blog">Blog</Link></li>
+                                <li><a href={site.dash_url_blog}>Blog</a></li>
                                 <li><Link to="/contact">Contact us</Link></li>
                             </ul>
                         </div>
@@ -338,9 +382,9 @@ const Main = ({footer}) => {
                             <h3>Let’s Try Out</h3>
                             <ul className="app_btn">
                             <li>
-                                <Link to="#">
-                                <img src="assets/images/appstore_blue.png" alt="image" />
-                                </Link>
+                                <a href={site.apple_app}>
+                                    <img src={blueapp} alt="image" />
+                                </a>
                             </li>
                             <li>
                                 <Link to="#">
@@ -357,11 +401,11 @@ const Main = ({footer}) => {
                 <div className="container">
                 <div className="row">
                     <div className="col-md-6">
-                        <p>© Copyrights 2022. All rights reserved.</p>
+                        <p>© Copyrights 2023 FloatEV. All rights reserved.</p>
                     </div>
-                    <div className="col-md-6">
-                        <p className="developer_text">Design & developed by <Link to="https://themeforest.net/user/kalanidhithemes" target="blank">Kalanidhi Themes</Link></p>
-                    </div>
+                    {/*<div className="col-md-6">*/}
+                    {/*    <p className="developer_text">Design & developed by <Link to="https://themeforest.net/user/kalanidhithemes" target="blank">Kalanidhi Themes</Link></p>*/}
+                    {/*</div>*/}
                 </div>
                 </div>
             </div>
@@ -380,16 +424,31 @@ const Main = ({footer}) => {
                     <div className="row">
                         <div className="col-lg-4 col-md-6 col-12">
                             <div className="abt_side">
-                                <div className="logo"> <img src="assets/images/footer_logo.png" alt="image" /></div>
+                                <div className="logo"> <img src={logo} alt="image" /></div>
                                 <ul>
-                                <li><Link to="#">support@example.com</Link></li>
-                                <li><Link to="#">+1-900-123 4567</Link></li>
+                                    <li><Link to="#">{site.support_email}</Link></li>
+                                    <li><Link to="#">{site.support_phone}</Link></li>
                                 </ul>
                                 <ul className="social_media">
-                                    <li><Link to="#"><i className="icofont-facebook"></i></Link></li>
-                                    <li><Link to="#"><i className="icofont-twitter"></i></Link></li>
-                                    <li><Link to="#"><i className="icofont-instagram"></i></Link></li>
-                                    <li><Link to="#"><i className="icofont-pinterest"></i></Link></li>
+
+                                        <li>
+                                            <a href={site.facebook_link}>
+                                                <i className="icofont-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href={site.twitter_link}>
+                                                <i className="icofont-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href={site.linked_link}>
+                                                <i className="icofont-linkedin"></i>
+                                            </a>
+                                        </li>
+                                        <li><Link to="#"><i className="icofont-instagram"></i></Link></li>
+
+
                                 </ul>
                             </div>
                         </div>
@@ -400,7 +459,7 @@ const Main = ({footer}) => {
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="/about">About us</Link></li>
                                     <li><Link to="#">Services</Link></li>
-                                    <li><Link to="/blog">Blog</Link></li>
+                                    <li><a href={site.dash_url_blog}>Blog</a></li>
                                     <li><Link to="/contact">Contact us</Link></li>
                                 </ul>
                             </div>
@@ -422,9 +481,9 @@ const Main = ({footer}) => {
                                 <h3>Let’s Try Out</h3>
                                 <ul className="app_btn">
                                 <li>
-                                    <Link to="#">
-                                       <img src="assets/images/appstore_blue.png" alt="image" />
-                                    </Link>
+                                    <a href={site.apple_app}>
+                                        <img src={blueapp} alt="image" />
+                                    </a>
                                 </li>
                                 <li>
                                     <Link to="#">
@@ -441,11 +500,11 @@ const Main = ({footer}) => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
-                            <p>© Copyrights 2022. All rights reserved.</p>
+                            <p>© Copyrights 2023 FloatEV. All rights reserved.</p>
                         </div>
-                        <div className="col-md-6">
-                            <p className="developer_text">Design & developed by <Link to="https://themeforest.net/user/kalanidhithemes" target="blank">Kalanidhi Themes</Link></p>
-                        </div>
+                        {/*<div className="col-md-6">*/}
+                        {/*    <p className="developer_text">Design & developed by <Link to="https://themeforest.net/user/kalanidhithemes" target="blank">Kalanidhi Themes</Link></p>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
             </div>
