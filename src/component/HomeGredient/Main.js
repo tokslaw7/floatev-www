@@ -10,8 +10,10 @@ import Interface from '../HomeMain/Interface/Main'
 import Download from '../HomeMain/Download/Main'
 import Story from '../HomeMain/Story/Main'
 import Trusted from '../HomeMain/Trusted/Main'
+import getConfig from "../Config/config"
 
 const Main = ({setnavbar,setfooter}) => {
+    var site = getConfig()[0];
     useEffect(() => {
         AOS.init();
         AOS.refresh();
@@ -35,33 +37,6 @@ const Main = ({setnavbar,setfooter}) => {
                         <h1>Best way to <span>manage your customers.</span></h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and setting indus orem Ipsum has been the industrys.
                         </p>
-                        </div>
-
-                        <div className="trial_box">
-                        <form action="" data-aos="fade-in" data-aos-duration="1500" data-aos-delay="100">
-                            <div className="form-group">
-                                <input type="email" className="form-control" placeholder="Enter your email"/>
-                            </div>
-                            <div className="form-group">
-                                <button className="btn">SUBMIT</button>
-                            </div>
-                        </form>
-                    </div>
-                    <div className="trial_box_list">
-                        <ul>
-                            <li><i className="icofont-check-circled"></i> Free trial 14 days</li>
-                            <li><i className="icofont-check-circled"></i> No credit card require</li>
-                        </ul>
-                    </div>
-
-                        <div className="used_app">
-                        <ul>
-                            <li><img src="assets/images/used01.png" alt="image" /></li>
-                            <li><img src="assets/images/used02.png" alt="image" /></li>
-                            <li><img src="assets/images/used03.png" alt="image" /></li>
-                            <li><img src="assets/images/used04.png" alt="image" /></li>
-                        </ul>
-                        <p>12M + <br/> used this app</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6"  data-aos="fade-in" data-aos-duration="1500">
@@ -164,8 +139,7 @@ const Main = ({setnavbar,setfooter}) => {
                             <h4>Download app</h4>
                             <div className="app_icon">
                                 <a href="#"><i className="icofont-brand-android-robot"></i></a>
-                                <a href="#"><i className="icofont-brand-apple"></i></a>
-                                <a href="#"><i className="icofont-brand-windows"></i></a>
+                                <a href={site.apple_app}><i className="icofont-brand-apple"></i></a>
                             </div>
                             <p>Download App either for Windows, Mac or Android</p>
                             </div>
@@ -180,10 +154,10 @@ const Main = ({setnavbar,setfooter}) => {
                         <li>
                             <div className="step_text" data-aos="fade-left" data-aos-duration="1500">
                             <h4>Create account</h4>
-                            <span>14 days free trial</span>
+                            {/*<span>14 days free trial</span>*/}
                             <p>Sign up free for App account. One account for all devices.</p>
                             </div>
-                            <div className="step_number number2"> 
+                            <div className="step_number number2">
                             <h3>02</h3>
                             </div>
                             <div className="step_img" data-aos="fade-right" data-aos-duration="1500">
@@ -208,32 +182,15 @@ const Main = ({setnavbar,setfooter}) => {
                     </div>
                 </div>
 
-                <div className="yt_video" data-aos="fade-in" data-aos-duration="1500">
-                    <div className="thumbnil">
-                        <img src="assets/images/yt_thumb.png" alt="image" />
-                        <a className="popup-youtube play-button" data-url="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1" data-toggle="modal" data-target="#myModal" title="XJj2PbenIsU">
-                        <span className="play_btn">
-                            <img src="assets/images/play_icon.png" alt="image" />
-                            <div className="waves-block">
-                            <div className="waves wave-1"></div>
-                            <div className="waves wave-2"></div>
-                            <div className="waves wave-3"></div>
-                            </div>
-                        </span>
-                        Let’s see virtually how it works
-                        <span>Watch video</span>
-                        </a>
-                    </div>
-                </div>
             </div>
         </section>
-        < Testimonial />
-        < Pricing gredient = {true}/>
+        {/*< Testimonial />*/}
+        {/*< Pricing gredient = {true}/>*/}
         < Faq gredient = {true}/>
-        < Interface />
-        < Download />
-        < Story />
-        < Trusted />
+        {/*< Interface />*/}
+        {/*< Download />*/}
+        {/*< Story />*/}
+        {/*< Trusted />*/}
     </>
   )
 }

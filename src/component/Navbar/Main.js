@@ -27,7 +27,7 @@ const Main = ({navbar}) => {
         {path === "/" ?
         <>
         {navbar.n2 && 
-        <header>
+        <header className="white_header fix_style fixed header-wave">
             <div className="container">
                 <nav className="navbar navbar-expand-lg">
                     <Link to="/" className="navbar-brand">
@@ -58,7 +58,6 @@ const Main = ({navbar}) => {
                                         <li><Link to="/about">About Us</Link></li>
                                         <li><Link to="/contact">Contact Us</Link></li>
                                         <li><Link to="/faq">Faq</Link></li>
-                                        <li><a href={site.dash_url_blog} className="nav-link">Blog</a></li>
                                     </ul>
                                 </div>
                             </li>
