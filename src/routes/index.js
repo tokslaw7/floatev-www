@@ -48,7 +48,7 @@ const Routing = () => {
         setnavbar({n3 : true})
         setbrdcum({b2 : true})
       }
-      else if (localStorage.getItem("navbar") === "home"){
+      else if (localStorage.getItem("navbar") === "home-gredient"){
         setfooter({f1 : true})
         setnavbar({n2 : true})
         setbrdcum({b1 : true})

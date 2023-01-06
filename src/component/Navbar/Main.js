@@ -44,9 +44,9 @@ const Main = ({navbar}) => {
                             <li className="nav-item" >
                                 <Link to="#" className="nav-link" >Home</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link smooth to="#features" className="nav-link">Features</Link>
-                            </li>
+                            {/*<li className="nav-item">*/}
+                            {/*    <Link smooth to="#features" className="nav-link">Features</Link>*/}
+                            {/*</li>*/}
                             <li className="nav-item">
                                 <Link smooth to="#how_it_work" className="nav-link">How it works</Link>
                             </li>

@@ -4,8 +4,11 @@ import Bredcrumb from '../../Bredcrumb/Main'
 import BGImg from "../../../assets/images/bread_crumb_bg.png"
 import BGImg1 from "../../../assets/images/bread_crumb_bg_one.png"
 import BGImg2 from "../../../assets/images/bread_crumb_bg_two.png"
+//import getConfig from "../Config/config"
+
 
 const Main = ({brdcum}) => {
+    var site = getConfig()[0];
 
     const[activeFaq, setActiveFaq] = useState({a : true})
   return (
@@ -208,9 +211,9 @@ const Main = ({brdcum}) => {
                                 </div>
                                 <ul className="app_btn">
                                 <li>
-                                    <Link to="#">
+                                    <a href="{site.apple_app}">
                                     <img src="assets/images/appstore_blue.png" alt="image" />
-                                    </Link>
+                                    </a>
                                 </li>
                                 <li>
                                     <Link to="#">
