@@ -7,7 +7,7 @@ import img2 from '../../../assets/images/followers.png'
 import img3 from '../../../assets/images/reviews.png'
 import img4 from '../../../assets/images/countries.png'
 
-const Main = ({video , dark}) => {
+const Main = ({video , dark } ) => {
   return (
     <>
         <section className="row_am about_app_section">

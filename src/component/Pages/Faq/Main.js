@@ -8,7 +8,7 @@ import BGImg2 from "../../../assets/images/bread_crumb_bg_two.png"
 
 
 const Main = ({brdcum}) => {
-    var site = getConfig()[0];
+    //var site = getConfig()[0];
 
     const[activeFaq, setActiveFaq] = useState({a : true})
   return (

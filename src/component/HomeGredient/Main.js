@@ -2,6 +2,7 @@ import React , { useEffect ,useState } from 'react'
 import { HashLink as Link } from 'react-router-hash-link';
 import AOS from "aos";
 import AboutApp from '../HomeMain/AboutApp/Main'
+//import AboutUs from '../AboutUs/Main'
 import Design from '../HomeMain/Design/Main'
 import Testimonial from '../HomeMain/Testimonial/Main'
 import Pricing from '../HomeMain/Pricing/Main'
@@ -122,6 +123,7 @@ const Main = ({setnavbar,setfooter}) => {
         {/*    </div>*/}
         {/*</section>*/}
         < AboutApp />
+        {/*< AboutUs />*/}
         < Design gredient = {true} />
         <section className="row_am how_it_works gredient-work" id="how_it_work">
             <div className="how_section_bg"> <img src="assets/images/section-bg.png" alt="image" /> </div>
