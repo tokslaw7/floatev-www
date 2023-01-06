@@ -52,21 +52,26 @@ const Main = ({brdcum}) => {
                     <div className="col-lg-6">
                         <div className="app_text">
                         <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-                            <h2><span>Providing innovative app solution</span> to make customer
-                            life easy to grow.</h2>
+                            <h2><span>Float analytical, recommendation</span> / rewards framework.</h2>
                         </div>
                         <p data-aos="fade-up" data-aos-duration="1500">
-                            Lorem Ipsum is simply dummy text of the printing and type
-                            setting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown
-                            printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
-                            five centuries, but also the leap into electronic typesetting, remaining to make a type speci
-                            men book. It has survived essentially unchanged.
+                            Our platform analyzes current fleet behavior and display areas for improvement on our custom customer dashboard.
                         </p>
-                        <p data-aos="fade-up" data-aos-duration="1500">
-                            Standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to
-                            make a type specien book. It has survived not only five centuries, but also the leap into electronic
-                            typesetting.
-                        </p>
+                            <p data-aos="fade-up" data-aos-duration="1500">
+                                Float saves their customers money from day one by analyzing their current fleet data on cost,
+                                emissions,time and resources and then makes recommendations on prioritization of vehicle replacements and infrastructure investments.
+                            </p>
+                        {/*<p data-aos="fade-up" data-aos-duration="1500">*/}
+                        {/*    We provide immediate and longer term changes to improve fleet performance.*/}
+                        {/*</p>*/}
+                        {/*    <p data-aos="fade-up" data-aos-duration="1500">*/}
+                        {/*        We integrate company data into Float recommendation engine to provide insights.*/}
+                        {/*    </p>*/}
+                        {/*    <p data-aos="fade-up" data-aos-duration="1500">*/}
+                        {/*        Our software takes you through the daily process of transitioning your fleet to Float.                       </p>*/}
+                        {/*    <p data-aos="fade-up" data-aos-duration="1500">*/}
+                        {/*        We guide you step by step to convert to Electronic vehicles.*/}
+                        {/*    </p>*/}
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -109,9 +114,7 @@ const Main = ({brdcum}) => {
                         </div>
                         <div className="text">
                         <h3>Secure code</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and type
-                            setting indus ideas.
-                        </p>
+                        <p>We provide immediate and longer term changes to improve fleet performance.</p>
                         </div>
                     </div>
                     </div>
@@ -122,7 +125,7 @@ const Main = ({brdcum}) => {
                         </div>
                         <div className="text">
                         <h3>Fully functional</h3>
-                        <p>Simply dummy text of the printing and typesetting indus lorem Ipsum is dummy.</p>
+                        <p>We integrate company data into Float recommendation engine to provide insights.</p>
                         </div>
                     </div>
                     </div>
@@ -133,9 +136,7 @@ const Main = ({brdcum}) => {
                         </div>
                         <div className="text">
                         <h3>Best communication</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and type
-                            setting indus ideas.
-                        </p>
+                        <p>Our software takes you through the daily process of transitioning your fleet to Float.</p>
                         </div>
                     </div>
                     </div>
@@ -146,7 +147,7 @@ const Main = ({brdcum}) => {
                         </div>
                         <div className="text">
                         <h3>24-7 Support</h3>
-                        <p>Simply dummy text of the printing and typesetting indus lorem Ipsum is dummy.</p>
+                        <p>We guide you step by step to convert to Electronic vehicles.</p>
                         </div>
                     </div>
                     </div>
@@ -165,10 +166,9 @@ const Main = ({brdcum}) => {
                     <div className="col-lg-6">
                         <div className="about_text">
                         <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-                            <h2> <span>We focus on quality,</span> never
-                            focus on quantity</h2>
+                            <h2> <span>FLOAT</span> EV</h2>
                             <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and.
+                                Float's recommendation engine enables tracking of vehicle usage, ownership & service costs, fuel costs, emissions. Its Telematics IoT enabled OBD device & dashcam to connect directly to the vehicle to pull data.
                             </p>
                         </div>
                         <ul className="app_statstic" id="counter" data-aos="fade-in" data-aos-duration="1500">

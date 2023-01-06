@@ -15,25 +15,24 @@ const Main = ({gredient}) => {
                     <div className="col-lg-6">
                         <div className="ui_text">
                         <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-                            <h2>Beautiful design with <span>modern UI</span></h2>
+                            <h2>FLOAT'S <span>DASHBOARD </span></h2>
                             <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the
-                            industrys standard dummy text ever since the when an unknown printer took a galley of type and.
+                                Your EV fleet performance metrics are in one place, easy to locate any useful information analyze data and
+                                compare results.
                             </p>
                         </div>
                         <ul className="design_block">
                             <li data-aos="fade-up" data-aos-duration="1500">
-                            <h4>Carefully designed</h4>
-                            <p>Lorem Ipsum is simply dummy text of the printing and type esetting industry lorem Ipsum has.</p>
+                            <h4>Metrics</h4>
+                            <p>We guide a company through the EV conversion process, starting with insights on current performance of their existing fleet.</p>
                             </li>
                             <li data-aos="fade-up" data-aos-duration="1500">
-                            <h4>Seamless Sync</h4>
-                            <p>Simply dummy text of the printing and typesetting inustry lorem Ipsum has Lorem dollar summit.</p>
+                            <h4>Guide</h4>
+                            <p>We assess what works, provide information on which vehicles to convert first, and continue to improve on fleet performance throughout the step by step conversion to EVs..</p>
                             </li>
                             <li data-aos="fade-up" data-aos-duration="1500">
-                            <h4>Access Drive</h4>
-                            <p>Printing and typesetting industry lorem Ipsum has been the industrys standard dummy text of type
-                                setting.</p>
+                            <h4>Access</h4>
+                            <p>We assess what works, provide information on which vehicles to convert first, and continue to improve on fleet performance throughout the step by step conversion to EVs..</p>
                             </li>
                         </ul>
                         </div>

@@ -26,11 +26,10 @@ const Main = ({video , dark } ) => {
                     <div className="col-lg-6">
                         <div className="about_text">
                         <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-                            <h2>Some awesome words <span>about app.</span></h2>
+                            <h2>FLOAT <span>EV</span></h2>
                             <p>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the
-                            industrys standard dummy text ever since the when an unknown printer took a galley of type and. Lorem
-                            ipsum dolor sit amet.
+                                Float's recommendation engine enables tracking of vehicle usage, ownership & service costs, fuel costs, emissions.
+                                Its Telematics IoT enabled OBD device & dashcam to connect directly to the vehicle to pull data.
                             </p>
                         </div>
                         {dark ?

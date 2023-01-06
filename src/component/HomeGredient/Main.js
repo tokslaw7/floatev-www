@@ -35,7 +35,7 @@ const Main = ({setnavbar,setfooter}) => {
                 <div className="row">
                     <div className="col-lg-6 col-md-12"  data-aos="fade-right" data-aos-duration="1500">
                         <div className="banner_text">
-                        <h1>Best way to <span>manage your customers.</span></h1>
+                        <h1>ELECTRIC FLEET CONVERSION <span>PLATFORM</span></h1>
                         <p>Lorem Ipsum is simply dummy text of the printing and setting indus orem Ipsum has been the industrys.
                         </p>
                         </div>
