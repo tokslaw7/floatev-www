@@ -4,8 +4,10 @@ import Bredcrumb from '../Bredcrumb/Main'
 import BGImg from "../../assets/images/bread_crumb_bg.png"
 import BGImg1 from "../../assets/images/bread_crumb_bg_one.png"
 import BGImg2 from "../../assets/images/bread_crumb_bg_two.png"
+import getConfig from "../Config/config"
 
 const Main = ({brdcum}) => {
+    var site = getConfig()[0];
   return (
 
     <>
@@ -103,7 +105,7 @@ const Main = ({brdcum}) => {
                             </div>
                             <div className="text">
                                 <span>Email Us</span>
-                                <Link to="#">example@gmail.com</Link>
+                                <Link to="#">{site.support_email}</Link>
                             </div>
                             </li>
                             <li>
@@ -112,7 +114,7 @@ const Main = ({brdcum}) => {
                             </div>
                             <div className="text">
                                 <span>Call Us</span>
-                                <Link to="#">+1 (888) 553-46-11</Link>
+                                <Link to="#">{site.support_phone}</Link>
                             </div>
                             </li>
                             <li>
@@ -121,7 +123,7 @@ const Main = ({brdcum}) => {
                             </div>
                             <div className="text">
                                 <span>Visit Us</span>
-                                <p>5687, Business Avenue, New York, USA 5687</p>
+                                <p>{site.support_us_address}</p>
                             </div>
                             </li>
                         </ul>
@@ -132,7 +134,9 @@ const Main = ({brdcum}) => {
         <section className="row_am map_section">
             <div className="container">
                 <div className="map_inner">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799160891!2d-74.25987584510595!3d40.69767006338158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1664399300741!5m2!1sen!2sin" width="100%" height="510" style={{border:"0"}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe width="100%" height="510" style={{border:"0"}} frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1070%20Cresta%20Way%20Unit%202,%20San%20Rafael%20CA%2094903+(FloatEV)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                           <a href="https://www.maps.ie/distance-area-calculator.html">measure area map</a>
+                    </iframe>
                 </div>
             </div>
         </section>
