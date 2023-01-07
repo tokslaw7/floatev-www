@@ -61,17 +61,6 @@ const Main = ({brdcum}) => {
                                 Float saves their customers money from day one by analyzing their current fleet data on cost,
                                 emissions,time and resources and then makes recommendations on prioritization of vehicle replacements and infrastructure investments.
                             </p>
-                        {/*<p data-aos="fade-up" data-aos-duration="1500">*/}
-                        {/*    We provide immediate and longer term changes to improve fleet performance.*/}
-                        {/*</p>*/}
-                        {/*    <p data-aos="fade-up" data-aos-duration="1500">*/}
-                        {/*        We integrate company data into Float recommendation engine to provide insights.*/}
-                        {/*    </p>*/}
-                        {/*    <p data-aos="fade-up" data-aos-duration="1500">*/}
-                        {/*        Our software takes you through the daily process of transitioning your fleet to Float.                       </p>*/}
-                        {/*    <p data-aos="fade-up" data-aos-duration="1500">*/}
-                        {/*        We guide you step by step to convert to Electronic vehicles.*/}
-                        {/*    </p>*/}
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -102,7 +91,7 @@ const Main = ({brdcum}) => {
             <div className="why_inner">
                 <div className="container">
                 <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-                    <h2><span>Why we are different</span> from others!</h2>
+                    <h2><span>No,we are not just </span> another EV!</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typese tting <br/> indus orem Ipsum has beenthe standard
                     dummy.</p>
                 </div>
