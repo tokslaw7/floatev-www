@@ -30,7 +30,7 @@ const Main = ({navbar}) => {
         <header className="white_header fix_style fixed header-wave">
             <div className="container">
                 <nav className="navbar navbar-expand-lg">
-                    <Link to="/" className="navbar-brand">
+                    <Link to="/" className="navbar-brand nav-item">
                         <img src={logo1} alt="image" />
                     </Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -115,6 +115,7 @@ const Main = ({navbar}) => {
                     <Link to="/" className="navbar-brand">
                         <img src={logo} alt="image" />
                     </Link>
+                    {/*<div className="logo"> <img src={logo} alt="image" /></div>*/}
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <div className={`toggle-wrap ${mobile && "active"}`}  onClick={() => setmobile(mobile === true ? false : true)}>
@@ -126,13 +127,13 @@ const Main = ({navbar}) => {
                         <div className="navbar-nav ml-auto">
                             <li className="nav-item">
                                 <Link to="/" className="nav-link" >Home </Link>
+                            </li>
                                 <span className="drp_btn" onClick={() => setmobile(mobile === true ? false : true)} style={{ display: show ? "block" : "none" }}><i className="icofont-rounded-down"></i></span>
                                 <div className="sub_menu">
-                                <ul>
-                                    <li><Link to="/" className="nav-link" >Home </Link></li>
-                                </ul>
+                                    {/*<li className="nav-item">*/}
+                                    {/*    <Link to="/" className="nav-link" >Home </Link>*/}
+                                    {/*</li>*/}
                                 </div>
-                            </li>
                             {/*<li className="nav-item">*/}
                             {/*    <Link smooth to="#features" className="nav-link">Features</Link>*/}
                             {/*</li>*/}

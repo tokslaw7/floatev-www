@@ -57,7 +57,7 @@ const Main = ({footer}) => {
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-12">
-                            <div className="links">
+                            <div className="links nav-item">
                                 <h3>Useful Links</h3>
                                 <ul>
                                     <li><Link to="/">Home</Link></li>
@@ -156,7 +156,7 @@ const Main = ({footer}) => {
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-12">
-                            <div className="links">
+                            <div className="links nav-item">
                                 <h3>Useful Links</h3>
                                 <ul>
                                     <li><Link to="/">Home</Link></li>
@@ -253,7 +253,7 @@ const Main = ({footer}) => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-12">
-                        <div className="links">
+                        <div className="links nav-item">
                             <h3>Useful Links</h3>
                             <ul>
                                 <li><Link to="/">Home</Link></li>
@@ -352,7 +352,7 @@ const Main = ({footer}) => {
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6 col-12">
-                        <div className="links">
+                        <div className="links nav-item">
                             <h3>Useful Links</h3>
                             <ul>
                                 <li><Link to="/">Home</Link></li>
@@ -453,7 +453,7 @@ const Main = ({footer}) => {
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 col-12">
-                            <div className="links">
+                            <div className="links nav-item">
                                 <h3>Useful Links</h3>
                                 <ul>
                                     <li><Link to="/">Home</Link></li>

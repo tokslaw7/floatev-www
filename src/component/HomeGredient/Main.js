@@ -36,22 +36,21 @@ const Main = ({setnavbar,setfooter}) => {
                     <div className="col-lg-6 col-md-12"  data-aos="fade-right" data-aos-duration="1500">
                         <div className="banner_text">
                         <h1>ELECTRIC FLEET CONVERSION <span>PLATFORM</span></h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and setting indus orem Ipsum has been the industrys.
-                        </p>
+                            <h6><span><Link to="/about">Learn More</Link></span></h6>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6"  data-aos="fade-in" data-aos-duration="1500">
                         <div className="banner_images image_box1">
                             <span className="banner_image1"> <img className="moving_position_animatin" src="assets/images/bannerimage1.png" alt="image" /> </span>
-                            <span className="banner_image2"> <img className="moving_animation" src="assets/images/bannerimage2.png" alt="image" /> </span>
+                            {/*<span className="banner_image2"> <img className="moving_animation" src="assets/images/bannerimage2.png" alt="image" /> </span>*/}
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-6"  data-aos="fade-in" data-aos-duration="1500">
-                        <div className="banner_images image_box2">
-                            <span className="banner_image3"> <img className="moving_animation" src="assets/images/bannerimage3.png" alt="image" /> </span>
-                            <span className="banner_image4"> <img className="moving_position_animatin" src="assets/images/bannerimage4.png" alt="image" /> </span>
-                        </div>
-                    </div>
+                    {/*<div className="col-lg-3 col-md-6"  data-aos="fade-in" data-aos-duration="1500">*/}
+                    {/*    <div className="banner_images image_box2">*/}
+                    {/*        <span className="banner_image3"> <img className="moving_animation" src="assets/images/bannerimage3.png" alt="image" /> </span>*/}
+                    {/*        <span className="banner_image4"> <img className="moving_position_animatin" src="assets/images/bannerimage4.png" alt="image" /> </span>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                 </div>
             </div>
         </section>

@@ -42,11 +42,11 @@ const Main = ({gredient}) => {
                         <div className="left_img">
                             <img className="moving_position_animatin" src={img1} alt="image" />
                         </div>
-                        <div className="right_img">
-                            <img className="moving_position_animatin" src={img2} alt="image" />
-                            <img className="moving_position_animatin" src={img3} alt="image" />
-                            <img className="moving_position_animatin" src={img4} alt="image" />
-                        </div>
+                        {/*<div className="right_img">*/}
+                        {/*    <img className="moving_position_animatin" src={img2} alt="image" />*/}
+                        {/*    <img className="moving_position_animatin" src={img3} alt="image" />*/}
+                        {/*    <img className="moving_position_animatin" src={img4} alt="image" />*/}
+                        {/*</div>*/}
                         </div>
                     </div>
                 </div>
