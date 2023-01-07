@@ -3844,6 +3844,15 @@ header.fix_style.white_header {
 .home-gredient {
     padding-top: 120px;
 }
+
+.center{
+    text-align: center;
+    color:#6A49F2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
 .home-gredient .hero_bg {
     position: absolute;
     top: -200px;

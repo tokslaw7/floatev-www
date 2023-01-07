@@ -12,6 +12,10 @@ import Download from '../HomeMain/Download/Main'
 import Story from '../HomeMain/Story/Main'
 import Trusted from '../HomeMain/Trusted/Main'
 import getConfig from "../Config/config"
+import blueapp from "../../assets/images/appstore_blue.png";
+import blue from "../../assets/images/googleplay_blue.png";
+import banner from '../../assets/images/bannerimage2.png';
+import logo from "../../assets/images/float-travel-app-logo.png";
 
 const Main = ({setnavbar,setfooter}) => {
     var site = getConfig()[0];
@@ -36,21 +40,42 @@ const Main = ({setnavbar,setfooter}) => {
                     <div className="col-lg-6 col-md-12"  data-aos="fade-right" data-aos-duration="1500">
                         <div className="banner_text">
                         <h1>ELECTRIC FLEET CONVERSION <span>PLATFORM</span></h1>
-                            <h6><span><Link to="/about">Learn More</Link></span></h6>
+
+                                <div className="try_out">
+                                    <ul className="app_btn">
+                                        <li>
+                                            <a href={site.apple_app}>
+                                                <img src={blueapp} alt="image" />
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <Link to="#">
+                                                <img src={blue} alt="image" />
+                                            </Link>
+                                        </li>
+                                    </ul>
+                                </div>
+
+
+                            <div className="center">
+                                <h5><span><Link to="/about">Learn More</Link></span></h5>
+                            </div>
+
+
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6"  data-aos="fade-in" data-aos-duration="1500">
                         <div className="banner_images image_box1">
-                            <span className="banner_image1"> <img className="moving_position_animatin" src="assets/images/bannerimage1.png" alt="image" /> </span>
-                            {/*<span className="banner_image2"> <img className="moving_animation" src="assets/images/bannerimage2.png" alt="image" /> </span>*/}
+                            <span className="banner_image1"> <img className="moving_position_animatin" src={banner} alt="image" /> </span>
+                            <span className="banner_image2"> <img className="moving_animation" src="assets/images/bannerimage2.png" alt="image" /> </span>
                         </div>
                     </div>
-                    {/*<div className="col-lg-3 col-md-6"  data-aos="fade-in" data-aos-duration="1500">*/}
-                    {/*    <div className="banner_images image_box2">*/}
-                    {/*        <span className="banner_image3"> <img className="moving_animation" src="assets/images/bannerimage3.png" alt="image" /> </span>*/}
-                    {/*        <span className="banner_image4"> <img className="moving_position_animatin" src="assets/images/bannerimage4.png" alt="image" /> </span>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
+                    <div className="col-lg-3 col-md-6"  data-aos="fade-in" data-aos-duration="1500">
+                        <div className="banner_images image_box2">
+                            <span className="banner_image3"> <img className="moving_animation" src="assets/images/bannerimage3.png" alt="image" /> </span>
+                            <span className="banner_image4"> <img className="moving_position_animatin" src="assets/images/bannerimage4.png" alt="image" /> </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
