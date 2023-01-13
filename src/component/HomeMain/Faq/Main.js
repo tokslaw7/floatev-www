@@ -11,7 +11,7 @@ const Main = ({gredient}) => {
             <div className="container">
                 <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
                     <h2><span>FAQ</span> - Frequently Asked Questions</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typese tting <br/> indus orem Ipsum has beenthe
+                    <p>We guide you step by step to convert to Electronic vehicles.<br/> indus orem Ipsum has beenthe
                         standard dummy.</p>
                 </div>
                 <div className="faq_panel">

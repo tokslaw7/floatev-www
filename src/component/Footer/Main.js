@@ -74,7 +74,7 @@ const Main = ({footer}) => {
                                 <ul>
                                 <li><Link to="/faq">FAQs</Link></li>
                                 <li><Link to="#">Support</Link></li>
-                                <li><Link to="#how_it_work">How it works</Link></li>
+                                <li><Link to="/how_it_work">How it works</Link></li>
                                 <li><Link to="/terms">Terms & conditions</Link></li>
                                 <li><Link to="#">Privacy policy</Link></li>
                                 </ul>
@@ -271,7 +271,7 @@ const Main = ({footer}) => {
                             <ul>
                                 <li><Link to="/faq">FAQs</Link></li>
                                 <li><Link to="#">Support</Link></li>
-                                <li><Link to="#how_it_work">How it works</Link></li>
+                                <li><Link to="/how_it_work">How it works</Link></li>
                                 <li><Link to="/terms">Terms & conditions</Link></li>
                                 <li><Link to="#">Privacy policy</Link></li>
                             </ul>
@@ -370,7 +370,7 @@ const Main = ({footer}) => {
                             <ul>
                             <li><Link to="/faq">FAQs</Link></li>
                             <li><Link to="#">Support</Link></li>
-                            <li><Link to="#how_it_work">How it works</Link></li>
+                            <li><Link to="/how_it_work">How it works</Link></li>
                             <li><Link to="/terms">Terms & conditions</Link></li>
                             <li><Link to="#">Privacy policy</Link></li>
                             </ul>
@@ -470,7 +470,7 @@ const Main = ({footer}) => {
                                 <ul>
                                 <li><Link to="/faq">FAQs</Link></li>
                                 <li><Link to="#">Support</Link></li>
-                                <li><Link to="#how_it_work">How it works</Link></li>
+                                <li><Link to="/how_it_work">How it works</Link></li>
                                 <li><Link to="/terms">Terms & conditions</Link></li>
                                 <li><Link to="#">Privacy policy</Link></li>
                                 </ul>

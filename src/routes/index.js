@@ -18,6 +18,7 @@ import HomeGredient from '../component/HomeGredient/Main'
 import HomeVideo from '../component/HomeVideo/Main'
 import HomeVideoTwo from '../component/HomeVideoTwo/Main'
 import Terms from '../component/Terms/Main'
+import Work from '../component/HomeMain/Work/Main'
 
 
 const Routing = () => {
@@ -88,6 +89,7 @@ const Routing = () => {
                 <Route path="/review" element={< Review setnavbar = {setnavbar} brdcum = {brdcum} />} />
                 <Route path="/contact" element={< Contact brdcum = {brdcum}/>} />
                 <Route path="/faq" element={< Faq brdcum = {brdcum} />} />
+                <Route path="/how_it_work" element={< Work brdcum = {brdcum} />} />
                 <Route path="/sign-in" element={< SignIn />} />
                 <Route path="/sign-up" element={< SignUp />} />
                 <Route path="/terms" element={<Terms brdcum={brdcum} />} />

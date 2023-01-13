@@ -20,8 +20,7 @@ const Main = ({dark}) => {
                 <div className={`how_it_inner ${dark && "dark"}`}>
                     <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
                         <h2><span>How it works</span> - 3 easy steps</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typese tting <br/> indus orem Ipsum has beenthe
-                        standard dummy.</p>
+                        <p>We guide a company through the EV conversion process,  <br/> starting with insights on current performance of their existing fleet.</p>
                     </div>
                     <div className="step_block">
                         <ul>
@@ -45,7 +44,7 @@ const Main = ({dark}) => {
                             <li>
                                 <div className="step_text" data-aos="fade-left" data-aos-duration="1500">
                                 <h4>Create account</h4>
-                                <span>14 days free trial</span>
+                                <span>30 days free Account</span>
                                 <p>Sign up free for App account. One account for all devices.</p>
                                 </div>
                                 <div className="step_number"> 
