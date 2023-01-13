@@ -17,6 +17,7 @@ import HomeWave from '../component/HomeWave/Main'
 import HomeGredient from '../component/HomeGredient/Main'
 import HomeVideo from '../component/HomeVideo/Main'
 import HomeVideoTwo from '../component/HomeVideoTwo/Main'
+import Terms from '../component/Terms/Main'
 
 
 const Routing = () => {
@@ -89,6 +90,7 @@ const Routing = () => {
                 <Route path="/faq" element={< Faq brdcum = {brdcum} />} />
                 <Route path="/sign-in" element={< SignIn />} />
                 <Route path="/sign-up" element={< SignUp />} />
+                <Route path="/terms" element={<Terms brdcum={brdcum} />} />
                 <Route path="/pricing" element={< Pricing brdcum = {brdcum}/>} />
                 <Route path="/blog" element={< Blog brdcum = {brdcum}/>} />
                 <Route path="/blog-single" element={< BlogSingle brdcum = {brdcum}/>} />
