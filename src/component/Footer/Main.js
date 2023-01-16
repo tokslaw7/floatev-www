@@ -89,11 +89,11 @@ const Main = ({footer}) => {
                                             <img src={blueapp} alt="image" />
                                         </a>
                                     </li>
-                                <li>
-                                    <Link to="#">
-                                       <img src={blue} alt="image" />
-                                    </Link>
-                                </li>
+                                    <li>
+                                        <a href={site.apple_app}>
+                                            <img src="assets/images/googleplay_blue.png" alt="image" />
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -188,9 +188,9 @@ const Main = ({footer}) => {
                                     </a>
                                 </li>
                                 <li>
-                                    <Link to="#">
+                                    <a href={site.apple_app}>
                                        <img src="assets/images/googleplay_blue.png" alt="image" />
-                                    </Link>
+                                    </a>
                                 </li>
                                 </ul>
                             </div>
@@ -288,9 +288,9 @@ const Main = ({footer}) => {
                                 </a>
                             </li>
                             <li>
-                                <Link to="#">
-                                <img src="assets/images/googleplay_blue.png" alt="image" />
-                                </Link>
+                                <a href={site.apple_app}>
+                                    <img src="assets/images/googleplay_blue.png" alt="image" />
+                                </a>
                             </li>
                             </ul>
                         </div>
@@ -387,9 +387,9 @@ const Main = ({footer}) => {
                                 </a>
                             </li>
                             <li>
-                                <Link to="#">
-                                <img src="assets/images/googleplay_blue.png" alt="image" />
-                                </Link>
+                                <a href={site.apple_app}>
+                                    <img src="assets/images/googleplay_blue.png" alt="image" />
+                                </a>
                             </li>
                             </ul>
                         </div>
@@ -486,9 +486,9 @@ const Main = ({footer}) => {
                                     </a>
                                 </li>
                                 <li>
-                                    <Link to="#">
-                                       <img src="assets/images/googleplay_blue.png" alt="image" />
-                                    </Link>
+                                    <a href={site.apple_app}>
+                                        <img src="assets/images/googleplay_blue.png" alt="image" />
+                                    </a>
                                 </li>
                                 </ul>
                             </div>
