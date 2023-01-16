@@ -105,7 +105,7 @@ const Main = ({brdcum}) => {
                             </div>
                             <div className="text">
                                 <span>Email Us</span>
-                                <Link to="#">{site.support_email}</Link>
+                                <a href={`mailto: ${process.env.REACT_APP_EMAIL}`}>{process.env.REACT_APP_EMAIL}</a>
                             </div>
                             </li>
                             <li>
@@ -114,7 +114,7 @@ const Main = ({brdcum}) => {
                             </div>
                             <div className="text">
                                 <span>Call Us</span>
-                                <Link to="#">{site.support_phone}</Link>
+                                <a href={`tel: ${process.env.REACT_APP_PHONE}`}>{process.env.REACT_APP_PHONE}</a>
                             </div>
                             </li>
                             <li>
@@ -123,7 +123,7 @@ const Main = ({brdcum}) => {
                             </div>
                             <div className="text">
                                 <span>Visit Us</span>
-                                <p>{site.support_us_address}</p>
+                                <p>{process.env.REACT_APP_ADDRESS}</p>
                             </div>
                             </li>
                         </ul>
