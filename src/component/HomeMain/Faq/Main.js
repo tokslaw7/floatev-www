@@ -20,7 +20,7 @@ const Main = ({gredient}) => {
                             <div className="card-header" id="headingOne">
                                 <h2 className="mb-0">
                                 <button type="button" className={`btn btn-link ${activeFaq.a && "active"}`} onClick= {() => setActiveFaq(activeFaq.a ? {a : false} : {a : true})} data-toggle="collapse" data-target="#collapseOne">
-                                {activeFaq.a ? <i className="icon_faq icofont-minus"></i>  : <i className="icon_faq icofont-plus"></i>} How can i pay ?</button>
+                                {activeFaq.a ? <i className="icon_faq icofont-minus"></i>  : <i className="icon_faq icofont-plus"></i>} What is FloatEV ?</button>
                                 </h2>
                             </div>
                             <div id="collapseOne" className="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
