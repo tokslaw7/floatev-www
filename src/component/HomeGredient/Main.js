@@ -49,9 +49,9 @@ const Main = ({setnavbar,setfooter}) => {
                                             </a>
                                         </li>
                                         <li>
-                                            <Link to="#">
-                                                <img src={blue} alt="image" />
-                                            </Link>
+                                            <a href={site.apple_app}>
+                                                <img src="assets/images/googleplay_blue.png" alt="image" />
+                                            </a>
                                         </li>
                                     </ul>
                                 </div>
