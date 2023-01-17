@@ -78,7 +78,7 @@ const Routing = () => {
 
     const [footer , setfooter] = useState({f1 : true})
     const [navbar , setnavbar] = useState({n1 : true})
-    const [brdcum , setbrdcum] = useState({n1 : true})
+    const [brdcum , setbrdcum] = useState({b1 : true})
     
     return (
         <>
