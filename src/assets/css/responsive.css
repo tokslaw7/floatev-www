@@ -413,7 +413,7 @@
     .contact_page_section .contact_inner {margin-top: 40px;}
     .contact_page_section .contact_inner .contact_form {padding: 30px 20px;}
     .contact_page_section .contact_inner .section_title h2 {font-size: 24px;}
-    .contact_page_section .contact_inner .contact_form form .form-group .form-control {height: 50px; font-size: 14px;}
+    .contact_page_section .contact_inner .contact_form form .form-group .form-control {height: 50px; font-size: 14px; width: 350px; margin-left: 50px;}
     .contact_page_section .contact_inner .contact_form form .term_check label {text-align: left; line-height: 1.3;}
     .contact_page_section .contact_inner .contact_form form .term_check {align-items: flex-start;}
     .contact_page_section .contact_inner .contact_info .section_title {text-align: center;}
@@ -430,7 +430,8 @@
     .features_section .feature_detail .feature_box { justify-content: center; margin: 0 auto; }
     .bred_crumb .banner_shape1, .banner_shape2, .banner_shape3 {  display: none;}
     .query_section .banner_shape1, .banner_shape2, .banner_shape3 {  display: none;}
-
+    .contact_page_section .contact_inner .contact_info .section_title h2, .contact_page_section .contact_inner .contact_info .section_title p 
+    {text-align: center; width: 400px; margin-left: 35px; }
 }
 
 @media screen and (max-width:479px) {
