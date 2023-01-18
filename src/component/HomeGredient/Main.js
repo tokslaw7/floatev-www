@@ -16,6 +16,7 @@ import blueapp from "../../assets/images/appstore_blue.png";
 import blue from "../../assets/images/googleplay_blue.png";
 import banner from '../../assets/images/bannerimage2.png';
 import logo from "../../assets/images/float-travel-app-logo.png";
+import { Arr2, Arr3, ChargeP1,ChargeP2,FuelProp } from '../../assets/images';
 
 const Main = ({setnavbar,setfooter}) => {
     var site = getConfig()[0];
@@ -45,7 +46,7 @@ const Main = ({setnavbar,setfooter}) => {
                                     <ul className="app_btn">
                                         <li>
                                             <a href={site.apple_app}>
-                                                <img src={blueapp} alt="image" />
+                                                <img src={blueapp} alt="image" className='bl'  />
                                             </a>
                                         </li>
                                         <li>
@@ -57,23 +58,23 @@ const Main = ({setnavbar,setfooter}) => {
                                 </div>
 
 
-                            <div className="center">
+                            {/* <div className="center">
                                 <h5><span><Link to="/about">Learn More</Link></span></h5>
-                            </div>
+                            </div> */}
 
 
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6"  data-aos="fade-in" data-aos-duration="1500">
                         <div className="banner_images image_box1">
-                            <span className="banner_image1"> <img className="moving_position_animatin" src={banner} alt="image" /> </span>
-                            <span className="banner_image2"> <img className="moving_animation" src="assets/images/bannerimage2.png" alt="image" /> </span>
+                            <span className="banner_image1"> <img className="moving_position_animatin" src={Arr3} alt="image" /> </span>
+                            <span className="banner_image2"> <img className="moving_animation" src={ChargeP2} alt="image" /> </span>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6"  data-aos="fade-in" data-aos-duration="1500">
                         <div className="banner_images image_box2">
-                            <span className="banner_image3"> <img className="moving_animation" src="assets/images/bannerimage3.png" alt="image" /> </span>
-                            <span className="banner_image4"> <img className="moving_position_animatin" src="assets/images/bannerimage4.png" alt="image" /> </span>
+                            <span className="banner_image3"> <img className="moving_animation" src={FuelProp} alt="image" /> </span>
+                            <span className="banner_image4"> <img className="moving_position_animatin" src={Arr2} alt="image" /> </span>
                         </div>
                     </div>
                 </div>
