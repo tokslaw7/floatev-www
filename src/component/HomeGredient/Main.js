@@ -46,7 +46,7 @@ const Main = ({setnavbar,setfooter}) => {
                                     <ul className="app_btn">
                                         <li>
                                             <a href={site.apple_app}>
-                                                <img src={blueapp} alt="image" />
+                                                <img src={blueapp} alt="image" className='bl'  />
                                             </a>
                                         </li>
                                         <li>
@@ -58,9 +58,9 @@ const Main = ({setnavbar,setfooter}) => {
                                 </div>
 
 
-                            <div className="center">
+                            {/* <div className="center">
                                 <h5><span><Link to="/about">Learn More</Link></span></h5>
-                            </div>
+                            </div> */}
 
 
                         </div>

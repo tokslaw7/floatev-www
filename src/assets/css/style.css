@@ -737,6 +737,11 @@ header.fixed .navbar {
     background-color: var(--purple);
 }
 
+.banner_section .app_btn li a:hover img {
+    filter: grayscale(100%);
+    opacity: 1 !important;
+}
+
 .banner_section .app_btn li a:hover .blue_img {
     opacity: 0;
 }
@@ -4542,6 +4547,11 @@ header.fix_style.white_header {
     }
 
     .home-gredient .banner_images.image_box2 img{
+        max-width: 267px;
+        width: 100%;
+    }
+
+    .home-gredient .banner_text img{
         max-width: 267px;
         width: 100%;
     }
