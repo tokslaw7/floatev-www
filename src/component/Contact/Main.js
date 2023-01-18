@@ -12,7 +12,7 @@ const Main = ({brdcum}) => {
 
     <>
        {brdcum.b1 && 
-        <Bredcrumb 
+        <Bredcrumb
         no={1}
         title="Contact Us" 
         paragraph="Ib you have an query, please get in touch with us, we will revert back quickly."
