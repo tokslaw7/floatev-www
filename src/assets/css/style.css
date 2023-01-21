@@ -1003,7 +1003,13 @@ header.fixed .navbar {
 }
 
 .about_app_section .about_text .app_statstic li p:first-child {
-    font-size: 40px;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.about_app_section .about_text .app_statstic li p:first-child {
+    font-size: 18px;
     font-weight: 600;
     margin-bottom: 3px;
 }
