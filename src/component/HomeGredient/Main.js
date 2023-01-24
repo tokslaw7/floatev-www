@@ -20,7 +20,7 @@ import arr2 from "../../assets/images/arr2.jpg"
 import floatH2 from "../../assets/images/floatH2.jpg"
 import fuelProp from "../../assets/images/fuelProp.webp"
 import cp1 from "../../assets/images/cp1.jpg"
-import { Arr2, Arr3, ChargeP1,ChargeP2,FuelProp } from '../../assets/images';
+// import { Arr2, Arr3, ChargeP1,ChargeP2,FuelProp } from '../../assets/images';
 
 const Main = ({setnavbar,setfooter}) => {
     var site = getConfig()[0];
