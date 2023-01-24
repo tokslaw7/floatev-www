@@ -9,6 +9,22 @@ import BGImg2 from "../../assets/images/bread_crumb_bg_two.png"
 const Main = ({brdcum}) => {
     const [ytShow , setytShow] = useState (false)
 
+    //  About Us Variable Paragraghs
+const APP_TEXT_TOP_P1='Our platform analyzes current fleet behavior and display areas for improvement on our custom customer dashboard.';
+const APP_TEXT_TOP_P2='Float saves their customers money from day one by analyzing their current fleet data on cost, emissions,time and resources and then makes recommendations on prioritization of vehicle replacements and infrastructure investments.';
+const WHY_INNER='Lorem Ipsum is simply dummy text of the printing and typese tting <br/> indus orem Ipsum has beenthe standard dummy.';
+const WIWB_P1='We provide immediate and longer term changes to improve fleet performance.';
+const WIWB_P2='We integrate company data into Float recommendation engine to provide insights.';
+const WIWB_P3='Our software takes you through the daily process of transitioning your fleet to Float.';
+const WIWB_P4='We guide you step by step to convert to Electronic vehicles.';
+const APP_TEXT_BOTTOM="Float's recommendation engine enables tracking of vehicle usage, ownership & service costs, fuel costs, emissions. Its Telematics IoT enabled OBD device & dashcam to connect directly to the vehicle to pull data.";
+const APP_TEXT_BOTTOM_L1='Download';
+const APP_TEXT_BOTTOM_L2='Followers';
+const APP_TEXT_BOTTOM_L3='Reviews';
+const APP_TEXT_BOTTOM_L4='Countries';
+const APP_QUERYINNER_P1='Lorem Ipsum is simply dummy text of the printing and typese tting ';
+const APP_QUERYINNER_P2=' indus orem Ipsum has beenthe standard dummy.';
+
   return (
     <>       
        {brdcum.b1 && 
@@ -55,11 +71,10 @@ const Main = ({brdcum}) => {
                             <h2><span>Float analytical, recommendation</span> / rewards framework.</h2>
                         </div>
                         <p data-aos="fade-up" data-aos-duration="1500">
-                            Our platform analyzes current fleet behavior and display areas for improvement on our custom customer dashboard.
+                            {APP_TEXT_TOP_P1}
                         </p>
                             <p data-aos="fade-up" data-aos-duration="1500">
-                                Float saves their customers money from day one by analyzing their current fleet data on cost,
-                                emissions,time and resources and then makes recommendations on prioritization of vehicle replacements and infrastructure investments.
+                               {APP_TEXT_TOP_P2}
                             </p>
                         </div>
                     </div>
@@ -92,8 +107,7 @@ const Main = ({brdcum}) => {
                 <div className="container">
                 <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                     <h2><span>No,we are not just </span> another EV!</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typese tting <br/> indus orem Ipsum has beenthe standard
-                    dummy.</p>
+                    <p>{WHY_INNER}</p>
                 </div>
                 <div className="row">
                     <div className="col-md-6 col-lg-3">
@@ -103,7 +117,7 @@ const Main = ({brdcum}) => {
                         </div>
                         <div className="text">
                         <h3>Secure code</h3>
-                        <p>We provide immediate and longer term changes to improve fleet performance.</p>
+                        <p>{WIWB_P1}</p>
                         </div>
                     </div>
                     </div>
@@ -114,7 +128,7 @@ const Main = ({brdcum}) => {
                         </div>
                         <div className="text">
                         <h3>Fully functional</h3>
-                        <p>We integrate company data into Float recommendation engine to provide insights.</p>
+                        <p>{WIWB_P2}</p>
                         </div>
                     </div>
                     </div>
@@ -125,7 +139,7 @@ const Main = ({brdcum}) => {
                         </div>
                         <div className="text">
                         <h3>Best communication</h3>
-                        <p>Our software takes you through the daily process of transitioning your fleet to Float.</p>
+                        <p>{WIWB_P3}</p>
                         </div>
                     </div>
                     </div>
@@ -136,7 +150,7 @@ const Main = ({brdcum}) => {
                         </div>
                         <div className="text">
                         <h3>24-7 Support</h3>
-                        <p>We guide you step by step to convert to Electronic vehicles.</p>
+                        <p>{WIWB_P4}</p>
                         </div>
                     </div>
                     </div>
@@ -157,7 +171,7 @@ const Main = ({brdcum}) => {
                         <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                             <h2> <span>FLOAT</span> EV</h2>
                             <p>
-                                Float's recommendation engine enables tracking of vehicle usage, ownership & service costs, fuel costs, emissions. Its Telematics IoT enabled OBD device & dashcam to connect directly to the vehicle to pull data.
+                                {APP_TEXT_BOTTOM}
                             </p>
                         </div>
                         <ul className="app_statstic" id="counter" data-aos="fade-in" data-aos-duration="1500">
@@ -167,7 +181,7 @@ const Main = ({brdcum}) => {
                             </div>
                             <div className="text">
                                 <p><span className="counter-value" data-count="17">0</span><span>M+</span></p>
-                                <p>Download</p>
+                                <p>{APP_TEXT_BOTTOM_L1}</p>
                             </div>
                             </li>
                             <li>
@@ -176,7 +190,7 @@ const Main = ({brdcum}) => {
                             </div>
                             <div className="text">
                                 <p><span className="counter-value" data-count="08">0 </span><span>M+</span></p>
-                                <p>Followers</p>
+                                <p>{APP_TEXT_BOTTOM_L2}</p>
                             </div>
                             </li>
                             <li>
@@ -185,7 +199,7 @@ const Main = ({brdcum}) => {
                             </div>
                             <div className="text">
                                 <p><span className="counter-value" data-count="2300">1500</span><span>+</span></p>
-                                <p>Reviews</p>
+                                <p>{APP_TEXT_BOTTOM_L3}</p>
                             </div>
                             </li>
                             <li>
@@ -194,7 +208,7 @@ const Main = ({brdcum}) => {
                             </div>
                             <div className="text">
                                 <p><span className="counter-value" data-count="150">0</span><span>+</span></p>
-                                <p>Countries</p>
+                                <p>{APP_TEXT_BOTTOM_L4}</p>
                             </div>
                             </li>
                         </ul>
@@ -280,7 +294,7 @@ const Main = ({brdcum}) => {
                 
                     <div className="section_title">
                         <h2>Have any query about ?</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typese tting <br/> indus orem Ipsum has beenthe standard dummy.</p>
+                        <p>{APP_QUERYINNER_P1} <br/> {APP_QUERYINNER_P2}</p>
                     </div>
                     <Link to="/contact" className="btn white_btn">CONTACT US NOW</Link>
                 </div>
