@@ -16,7 +16,7 @@ import blueapp from "../../assets/images/appstore_blue.png";
 import blue from "../../assets/images/googleplay_blue.png";
 import banner from '../../assets/images/bannerimage2.png';
 import logo from "../../assets/images/float-travel-app-logo.png";
-import floatH1 from "../../assets/images/floatH1.jpg"
+import arr2 from "../../assets/images/arr2.jpg"
 import floatH2 from "../../assets/images/floatH2.jpg"
 import fuelProp from "../../assets/images/fuelProp.webp"
 import cp1 from "../../assets/images/cp1.jpg"
@@ -62,7 +62,7 @@ const Main = ({setnavbar,setfooter}) => {
 
 
                             <div className="center">
-                                <h5><span><Link to="/about">Learn More</Link></span></h5>
+                                {/* <h5><span><Link to="/about">Learn More</Link></span></h5> */}
                             </div>
 
 
@@ -70,19 +70,19 @@ const Main = ({setnavbar,setfooter}) => {
                     </div>
                     <div className="col-lg-3 col-md-6"  data-aos="fade-in" data-aos-duration="1500">
                         <div className="banner_images image_box1">
-                            <span className="banner_image1"> <img className="moving_position_animatin" src={floatH2} alt="image" /> </span>
-                            <span className="banner_image2"> <img className="moving_animation" src={floatH1} alt="image" /> </span>
+                            <span className="banner_image1"> <img className="moving_position_animatin" src={fuelProp} alt="image" /> </span>
+                            <span className="banner_image2"> <img className="moving_animation" src={cp1} alt="image" /> </span>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6"  data-aos="fade-in" data-aos-duration="1500">
                         <div className="banner_images image_box2">
-                            <span className="banner_image3"> <img className="moving_animation" src="assets/images/bannerimage3.png" alt="image" /> </span>
-                            <span className="banner_image4"> <img className="moving_position_animatin" src="assets/images/bannerimage4.png" alt="image" /> </span>
+                            <span className="banner_image3"> <img className="moving_animation" src={floatH2} alt="image" /> </span>
+                            <span className="banner_image4"> <img className="moving_position_animatin" src={arr2} alt="image" /> </span>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section><br /><br />
 
         {/*<section className="row_am features_section features-gredient" id="features">*/}
         {/*    <div className="feature_section_bg"> <img src="assets/images/section-bg.png" alt="image" /> </div>*/}

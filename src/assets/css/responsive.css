@@ -432,6 +432,10 @@
     .query_section .banner_shape1, .banner_shape2, .banner_shape3 {  display: none;}
     .contact_page_section .contact_inner .contact_info .section_title h2, .contact_page_section .contact_inner .contact_info .section_title p 
     {text-align: center; width: 400px; margin-left: 35px; }
+    /* A better look in term of design */
+    .home-gredient .banner_text {text-align: left !important;}
+    /* The images felt distracting and not good for mobile view */
+    .home-gredient .banner_images {display: none;}
 }
 
 @media screen and (max-width:479px) {

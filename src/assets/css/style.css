@@ -4532,6 +4532,21 @@ header.fix_style.white_header {
         
     }
 
-    .home-gredient .banner_images.image_box1 {
-        text-align: right;
-    } 
+.home-gredient .banner_images.image_box1 {
+    text-align: right;
+} 
+
+.home-gredient .banner_images.image_box1 img{
+    max-width: 165px;
+    width: 100%;
+}
+
+.home-gredient .banner_images.image_box2 img{
+    max-width: 267px;
+    width: 100%;
+}
+
+.home-gredient .banner_text img{
+    max-width: 267px;
+    width: 100%;
+}
