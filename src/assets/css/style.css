@@ -4564,6 +4564,7 @@ header.fix_style.white_header {
 
 .home-gredient .banner_images.image_box2 img{
     max-width: 267px;
+    max-height: 14rem;
     width: 100%;
 }
 

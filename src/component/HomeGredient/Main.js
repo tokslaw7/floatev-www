@@ -71,13 +71,13 @@ const Main = ({setnavbar,setfooter}) => {
                     </div>
                     <div className="col-lg-3 col-md-6"  data-aos="fade-in" data-aos-duration="1500">
                         <div className="banner_images image_box1">
-                            <span className="banner_image1"> <img className="moving_position_animatin" src={fuelProp} alt="image" /> </span>
+                            <span className="banner_image1"> <img className="moving_position_animatin" src={floatH2} alt="image" /> </span>
                             <span className="banner_image2"> <img className="moving_animation" src={cp1} alt="image" /> </span>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6"  data-aos="fade-in" data-aos-duration="1500">
                         <div className="banner_images image_box2">
-                            <span className="banner_image3"> <img className="moving_animation" src={floatH2} alt="image" /> </span>
+                            <span className="banner_image3"> <img className="moving_animation" src={fuelProp} alt="image" /> </span>
                             <span className="banner_image4"> <img className="moving_position_animatin" src={arr2} alt="image" /> </span>
                         </div>
                     </div>
