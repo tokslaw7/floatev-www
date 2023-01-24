@@ -1070,6 +1070,8 @@ header.fixed .navbar {
 .modern_ui_section .ui_images {
     display: flex;
     position: relative;
+    align-items: center;
+    justify-content: center;
 }
 
 .modern_ui_section .ui_images::before {

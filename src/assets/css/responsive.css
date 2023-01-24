@@ -88,6 +88,11 @@
 }
 
 @media screen and (max-width:992px) {
+    
+    .home-gredient .banner_images{display: none;}
+    
+    /* Banner Section */
+    .banner_section .row:first-child{margin-top: 9rem; margin-bottom: 9rem;} 
 
     /* navigation section */
     .navbar-toggler-icon {display: flex; align-items: center; color: var(--body-text-purple); justify-content: flex-end;}
