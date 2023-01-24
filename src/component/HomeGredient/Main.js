@@ -16,6 +16,10 @@ import blueapp from "../../assets/images/appstore_blue.png";
 import blue from "../../assets/images/googleplay_blue.png";
 import banner from '../../assets/images/bannerimage2.png';
 import logo from "../../assets/images/float-travel-app-logo.png";
+import floatH1 from "../../assets/images/floatH1.jpg"
+import floatH2 from "../../assets/images/floatH2.jpg"
+import fuelProp from "../../assets/images/fuelProp.webp"
+import cp1 from "../../assets/images/cp1.jpg"
 
 const Main = ({setnavbar,setfooter}) => {
     var site = getConfig()[0];
@@ -66,8 +70,8 @@ const Main = ({setnavbar,setfooter}) => {
                     </div>
                     <div className="col-lg-3 col-md-6"  data-aos="fade-in" data-aos-duration="1500">
                         <div className="banner_images image_box1">
-                            <span className="banner_image1"> <img className="moving_position_animatin" src={banner} alt="image" /> </span>
-                            <span className="banner_image2"> <img className="moving_animation" src="assets/images/bannerimage2.png" alt="image" /> </span>
+                            <span className="banner_image1"> <img className="moving_position_animatin" src={floatH2} alt="image" /> </span>
+                            <span className="banner_image2"> <img className="moving_animation" src={floatH1} alt="image" /> </span>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-6"  data-aos="fade-in" data-aos-duration="1500">
