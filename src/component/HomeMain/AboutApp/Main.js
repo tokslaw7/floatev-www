@@ -51,41 +51,37 @@ const Main = ({video , dark } ) => {
                                 </li>
                              </ul>
                              :
-                            <ul className="app_statstic" id="counter" data-aos="fade-in" data-aos-duration="1500">
+                            <ul className="app_statstic" data-aos="fade-in" data-aos-duration="1500">
                                 <li>
-                                <div className="icon">
+                                {/* <div className="icon">
                                 {video ? <img src="assets/images/download-one.png" alt="image" /> : <img src={img1} alt="image" />} 
-                                </div>
+                                </div> */}
                                 <div className="text">
-                                    <p><span className="counter-value" data-count="17">0</span><span>M+</span></p>
-                                    <p>Download</p>
+                                    <p><span>Recommendation</span></p>
+                                    <p>Engine</p>
                                 </div>
                                 </li>
                                 <li>
-                                <div className="icon">
-                                {video ? <img src="assets/images/followers-one.png" alt="image" /> : <img src={img2} alt="image" /> }
-                                </div>
                                 <div className="text">
-                                    <p><span className="counter-value" data-count="08">0 </span><span>M+</span></p>
-                                    <p>Followers</p>
+                                    <p><span>Performance</span></p>
+                                    <p>Metrics</p>
                                 </div>
                                 </li>
                                 <li>
-                                <div className="icon">
+                                {/* <div className="icon">
                                     {video ? <img src="assets/images/reviews-one.png" alt="image" /> : <img src={img3} alt="image" /> }
-                                </div>
+                                </div> */}
                                 <div className="text">
-                                    <p><span className="counter-value" data-count="2300">1500</span><span>+</span></p>
-                                    <p>Reviews</p>
+                                    <p><span>Telematics</span></p>
                                 </div>
                                 </li>
                                 <li>
-                                <div className="icon">
+                                {/* <div className="icon">
                                     {video ? <img src="assets/images/countries-one.png" alt="image" /> : <img src={img4} alt="image" /> }
-                                </div>
+                                </div> */}
                                 <div className="text">
-                                    <p><span className="counter-value" data-count="150">0</span><span>+</span></p>
-                                    <p>Countries</p>
+                                    <p><span>Rewards</span></p>
+                                    {/* <p>Countries</p> */}
                                 </div>
                                 </li>
                             </ul>}

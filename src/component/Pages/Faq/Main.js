@@ -17,7 +17,7 @@ const Main = ({brdcum}) => {
         <Bredcrumb 
             no={1}
             title="Have questions? look here" 
-            paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting"
+            paragraph="Learn more about FloatEV through answers to frequently asked questions."
             tag="Faq" 
             bgimg={BGImg}/>}
 
@@ -25,7 +25,7 @@ const Main = ({brdcum}) => {
         <Bredcrumb 
             no={2}
             title="Have questions? look here" 
-            paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting"
+            paragraph="Learn more about FloatEV through answers to frequently asked questions."
             tag="Faq" 
             bgimg={BGImg1}/>}
 
@@ -33,7 +33,7 @@ const Main = ({brdcum}) => {
         <Bredcrumb 
         no={5}
         title="Have questions? look here" 
-        paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting"
+        paragraph="Learn more about FloatEV through answers to frequently asked questions."
         tag="Faq" 
         bgimg={BGImg}/>}
 
@@ -41,14 +41,14 @@ const Main = ({brdcum}) => {
         <Bredcrumb 
             no={3}
             title="Have questions? look here" 
-            paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting"
+            paragraph="Learn more about FloatEV through answers to frequently asked questions."
             tag="Faq" />}
 
         {brdcum.b4 && 
         <Bredcrumb 
             no={4}
             title="Have questions? look here" 
-            paragraph="Lorem Ipsum is simply dummy text of the printing and typesetting"
+            paragraph="Learn more about FloatEV through answers to frequently asked questions."
             tag="Faq" 
             bgimg={BGImg2}/>}
 

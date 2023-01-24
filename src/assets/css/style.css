@@ -989,7 +989,7 @@ header.fixed .navbar {
     align-items: center;
     border-radius: 12px;
     padding: 15px 10px;
-    padding-left: 35px;
+    padding-left: 20px;
     box-shadow: 0px 4px 10px #EDE9FE;
 }
 
@@ -1004,7 +1004,7 @@ header.fixed .navbar {
 }
 
 .about_app_section .about_text .app_statstic li p:first-child {
-    font-size: 40px;
+    font-size: x-large;
     font-weight: 600;
     margin-bottom: 3px;
 }
