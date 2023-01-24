@@ -659,7 +659,7 @@ header.fixed .navbar {
 /* ---------Hero-Slider-Css-Start------------------ */
 /* hero slider wraper */
 .banner_section {
-    margin-top: 170px;
+    margin-top: 100px;
     position: relative;
 }
 
@@ -695,6 +695,7 @@ header.fixed .navbar {
     color: var(--dark-purple);
     letter-spacing: -1.5px;
     font-weight: 700;
+    pointer-events: none;
 }
 
 .banner_section .banner_text h1 span {
@@ -735,6 +736,11 @@ header.fixed .navbar {
 
 .banner_section .app_btn li a:hover {
     background-color: var(--purple);
+}
+
+.banner_section .app_btn li a:hover img {
+    filter: grayscale(100%);
+    opacity: 1 !important;
 }
 
 .banner_section .app_btn li a:hover .blue_img {
@@ -959,7 +965,7 @@ header.fixed .navbar {
 }
 
 .about_app_section .about_text .section_title {
-    text-align: left;
+    text-align: justify;
 }
 
 .about_app_section .about_text .section_title h2 {
@@ -1020,10 +1026,15 @@ header.fixed .navbar {
 }
 
 .modern_ui_section .ui_text {
-    padding-right: 75px;
+    max-width: 24rem;
 }
 
 /* modern ui list */
+.modern_ui_section .design_block ul{
+    text-align: justify;
+    max-width: 22rem;
+}
+
 .modern_ui_section .design_block li {
     padding-left: 40px;
     position: relative;
@@ -1072,6 +1083,12 @@ header.fixed .navbar {
     background-color: var(--bg-white);
     z-index: -1;
 }
+
+.modern_ui_section  .left_img img{
+    max-width: 37rem;
+    width: 100%;
+}
+
 .gredient-bg .ui_images::before {
     background-color: transparent;
 }

@@ -436,6 +436,11 @@
     .home-gredient .banner_text {text-align: left !important;}
     /* The images felt distracting and not good for mobile view */
     .home-gredient .banner_images {display: none;}
+
+    .modern_ui_section .ui_text .section_title {
+        max-width: 21.5rem;
+    }
+    
 }
 
 @media screen and (max-width:479px) {
