@@ -265,9 +265,11 @@
     /* modern ui section */
     .modern_ui_section .ui_images {margin-top: 10px;}
     .modern_ui_section .section_title {text-align: center;}
-    .modern_ui_section .design_block li {padding-left: 0; margin-bottom: 30px;}
+    .modern_ui_section .design_block li {padding-left: 0; margin-bottom: 30px; text-align: justify;}
     .modern_ui_section .design_block li::before {position: relative; left: auto; top: auto; display: inline-block;}
 
+    /* The images felt distracting and not good for mobile view */
+    .home-gredient .banner_images {display: none;}
     .modern_ui_section .ui_images img {max-width: 100%;}
     .modern_ui_section .ui_images::before {width: 350px; height: 350px;}
     .modern_ui_section .ui_images .left_img {width: 70%;}
@@ -434,17 +436,14 @@
     {text-align: center; width: 400px; margin-left: 35px; }
     /* A better look in term of design */
     .home-gredient .banner_text {text-align: left !important;}
-    /* The images felt distracting and not good for mobile view */
-    .home-gredient .banner_images {display: none;}
 
-    .modern_ui_section .ui_text .section_title {
-        max-width: 21.5rem;
-    }
-    
+    .modern_ui_section .ui_text .section_title {max-width: 24rem;}
+    .modern_ui_section .design_block {text-align: justify; padding-inline: 1rem;}
+    .modern_ui_section .ui_images{display: flex; justify-content: center; margin-top: 25px;}
+
 }
 
 @media screen and (max-width:479px) {
-
     /* about app section */
     .about_app_section .about_img::before {left: 49%;}
 }

@@ -1026,7 +1026,8 @@ header.fixed .navbar {
 }
 
 .modern_ui_section .ui_text {
-    max-width: 24rem;
+    max-width: 27rem;
+    width: 100%;
 }
 
 /* modern ui list */
