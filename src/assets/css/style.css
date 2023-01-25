@@ -1227,6 +1227,10 @@ header.fixed .navbar {
     flex-direction: row-reverse;
 }
 
+.how_it_works .step_block ul li:nth-child(3) {
+    flex-direction: row !important;
+}
+
 .how_it_works .step_block ul li:nth-child(2) .step_text,
 .how_it_works .step_block ul li:nth-child(2) .step_img {
     text-align: left;
