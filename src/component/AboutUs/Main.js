@@ -5,6 +5,7 @@ import Bredcrumb from '../Bredcrumb/Main'
 import BGImg from "../../assets/images/bread_crumb_bg.png"
 import BGImg1 from "../../assets/images/bread_crumb_bg_one.png"
 import BGImg2 from "../../assets/images/bread_crumb_bg_two.png"
+import Fleet from "../../assets/images/fleet_tree.png"
 
 const Main = ({brdcum}) => {
     const [ytShow , setytShow] = useState (false)
@@ -148,7 +149,7 @@ const Main = ({brdcum}) => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="abt_img" data-aos="fade-in" data-aos-duration="1500">
-                            <img src="assets/images/about_main.png" alt="image"/>
+                            <img src={Fleet} alt="image"/>
                         </div>
                     </div>
                     <div className="col-lg-6">
