@@ -5,25 +5,12 @@ import Bredcrumb from '../Bredcrumb/Main'
 import BGImg from "../../assets/images/bread_crumb_bg.png"
 import BGImg1 from "../../assets/images/bread_crumb_bg_one.png"
 import BGImg2 from "../../assets/images/bread_crumb_bg_two.png"
+import { About } from './store'
 
 const Main = ({brdcum}) => {
     const [ytShow , setytShow] = useState (false)
 
-    //  About Us Variable Paragraghs
-const APP_TEXT_TOP_P1='Our platform analyzes current fleet behavior and display areas for improvement on our custom customer dashboard.';
-const APP_TEXT_TOP_P2='Float saves their customers money from day one by analyzing their current fleet data on cost, emissions,time and resources and then makes recommendations on prioritization of vehicle replacements and infrastructure investments.';
-const WHY_INNER='Lorem Ipsum is simply dummy text of the printing and typese tting <br/> indus orem Ipsum has beenthe standard dummy.';
-const WIWB_P1='We provide immediate and longer term changes to improve fleet performance.';
-const WIWB_P2='We integrate company data into Float recommendation engine to provide insights.';
-const WIWB_P3='Our software takes you through the daily process of transitioning your fleet to Float.';
-const WIWB_P4='We guide you step by step to convert to Electronic vehicles.';
-const APP_TEXT_BOTTOM="Float's recommendation engine enables tracking of vehicle usage, ownership & service costs, fuel costs, emissions. Its Telematics IoT enabled OBD device & dashcam to connect directly to the vehicle to pull data.";
-const APP_TEXT_BOTTOM_L1='Download';
-const APP_TEXT_BOTTOM_L2='Followers';
-const APP_TEXT_BOTTOM_L3='Reviews';
-const APP_TEXT_BOTTOM_L4='Countries';
-const APP_QUERYINNER_P1='Lorem Ipsum is simply dummy text of the printing and typese tting ';
-const APP_QUERYINNER_P2=' indus orem Ipsum has beenthe standard dummy.';
+    const {app_text: {top, bottom}, why_text: {inner, why_box}, appQuery} = About
 
   return (
     <>       
@@ -71,10 +58,10 @@ const APP_QUERYINNER_P2=' indus orem Ipsum has beenthe standard dummy.';
                             <h2><span>Float analytical, recommendation</span> / rewards framework.</h2>
                         </div>
                         <p data-aos="fade-up" data-aos-duration="1500">
-                            {APP_TEXT_TOP_P1}
+                            {top.p1}
                         </p>
                             <p data-aos="fade-up" data-aos-duration="1500">
-                               {APP_TEXT_TOP_P2}
+                               {top.p2}
                             </p>
                         </div>
                     </div>
@@ -107,7 +94,7 @@ const APP_QUERYINNER_P2=' indus orem Ipsum has beenthe standard dummy.';
                 <div className="container">
                 <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                     <h2><span>No,we are not just </span> another EV!</h2>
-                    <p>{WHY_INNER}</p>
+                    <p>{inner.p1}<br />{inner.p2}</p>
                 </div>
                 <div className="row">
                     <div className="col-md-6 col-lg-3">
@@ -117,7 +104,7 @@ const APP_QUERYINNER_P2=' indus orem Ipsum has beenthe standard dummy.';
                         </div>
                         <div className="text">
                         <h3>Secure code</h3>
-                        <p>{WIWB_P1}</p>
+                        <p>{why_box.p1}</p>
                         </div>
                     </div>
                     </div>
@@ -128,7 +115,7 @@ const APP_QUERYINNER_P2=' indus orem Ipsum has beenthe standard dummy.';
                         </div>
                         <div className="text">
                         <h3>Fully functional</h3>
-                        <p>{WIWB_P2}</p>
+                        <p>{why_box.p2}</p>
                         </div>
                     </div>
                     </div>
@@ -139,7 +126,7 @@ const APP_QUERYINNER_P2=' indus orem Ipsum has beenthe standard dummy.';
                         </div>
                         <div className="text">
                         <h3>Best communication</h3>
-                        <p>{WIWB_P3}</p>
+                        <p>{why_box.p3}</p>
                         </div>
                     </div>
                     </div>
@@ -150,7 +137,7 @@ const APP_QUERYINNER_P2=' indus orem Ipsum has beenthe standard dummy.';
                         </div>
                         <div className="text">
                         <h3>24-7 Support</h3>
-                        <p>{WIWB_P4}</p>
+                        <p>{why_box.p4}</p>
                         </div>
                     </div>
                     </div>
@@ -171,7 +158,7 @@ const APP_QUERYINNER_P2=' indus orem Ipsum has beenthe standard dummy.';
                         <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                             <h2> <span>FLOAT</span> EV</h2>
                             <p>
-                                {APP_TEXT_BOTTOM}
+                                {bottom.header}
                             </p>
                         </div>
                         <ul className="app_statstic" id="counter" data-aos="fade-in" data-aos-duration="1500">
@@ -181,7 +168,7 @@ const APP_QUERYINNER_P2=' indus orem Ipsum has beenthe standard dummy.';
                             </div>
                             <div className="text">
                                 <p><span className="counter-value" data-count="17">0</span><span>M+</span></p>
-                                <p>{APP_TEXT_BOTTOM_L1}</p>
+                                <p>{bottom.p1}</p>
                             </div>
                             </li>
                             <li>
@@ -190,7 +177,7 @@ const APP_QUERYINNER_P2=' indus orem Ipsum has beenthe standard dummy.';
                             </div>
                             <div className="text">
                                 <p><span className="counter-value" data-count="08">0 </span><span>M+</span></p>
-                                <p>{APP_TEXT_BOTTOM_L2}</p>
+                                <p>{bottom.p2}</p>
                             </div>
                             </li>
                             <li>
@@ -199,7 +186,7 @@ const APP_QUERYINNER_P2=' indus orem Ipsum has beenthe standard dummy.';
                             </div>
                             <div className="text">
                                 <p><span className="counter-value" data-count="2300">1500</span><span>+</span></p>
-                                <p>{APP_TEXT_BOTTOM_L3}</p>
+                                <p>{bottom.p3}</p>
                             </div>
                             </li>
                             <li>
@@ -208,7 +195,7 @@ const APP_QUERYINNER_P2=' indus orem Ipsum has beenthe standard dummy.';
                             </div>
                             <div className="text">
                                 <p><span className="counter-value" data-count="150">0</span><span>+</span></p>
-                                <p>{APP_TEXT_BOTTOM_L4}</p>
+                                <p>{bottom.p4}</p>
                             </div>
                             </li>
                         </ul>
@@ -294,7 +281,7 @@ const APP_QUERYINNER_P2=' indus orem Ipsum has beenthe standard dummy.';
                 
                     <div className="section_title">
                         <h2>Have any query about ?</h2>
-                        <p>{APP_QUERYINNER_P1} <br/> {APP_QUERYINNER_P2}</p>
+                        <p>{appQuery.p1} <br/> {appQuery.p2}</p>
                     </div>
                     <Link to="/contact" className="btn white_btn">CONTACT US NOW</Link>
                 </div>
