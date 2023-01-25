@@ -281,7 +281,7 @@ const Main = ({brdcum}) => {
                 
                     <div className="section_title">
                         <h2>Have any query about ?</h2>
-                        <p>{appQuery.p1} <br/> {appQuery.p2}</p>
+                        <p>{appQuery.p1} <br/>{appQuery.p2}</p>
                     </div>
                     <Link to="/contact" className="btn white_btn">CONTACT US NOW</Link>
                 </div>
