@@ -124,7 +124,7 @@ const Main = ({brdcum}) => {
                         <img src="assets/images/communication.png" alt="image"/>
                         </div>
                         <div className="text">
-                        <h3>Best communication</h3>
+                        <h3>User-Friendly</h3>
                         <p>Our software takes you through the daily process of transitioning your fleet to Float.</p>
                         </div>
                     </div>
@@ -135,7 +135,7 @@ const Main = ({brdcum}) => {
                         <img src="assets/images/abt_support.png" alt="image"/>
                         </div>
                         <div className="text">
-                        <h3>24-7 Support</h3>
+                        <h3>Support</h3>
                         <p>We guide you step by step to convert to Electronic vehicles.</p>
                         </div>
                     </div>
@@ -280,7 +280,7 @@ const Main = ({brdcum}) => {
                 
                     <div className="section_title">
                         <h2>Have any query about ?</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typese tting <br/> indus orem Ipsum has beenthe standard dummy.</p>
+                        <p>“If you have an query, please get in touch with us, we will revert back quickly.”</p>
                     </div>
                     <Link to="/contact" className="btn white_btn">CONTACT US NOW</Link>
                 </div>
