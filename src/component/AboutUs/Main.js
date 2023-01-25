@@ -92,8 +92,7 @@ const Main = ({brdcum}) => {
                 <div className="container">
                 <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                     <h2><span>No,we are not just </span> another EV!</h2>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typese tting <br/> indus orem Ipsum has beenthe standard
-                    dummy.</p>
+                    <p>Our software takes you through the daily process of transitioning your fleet to Float.</p>
                 </div>
                 <div className="row">
                     <div className="col-md-6 col-lg-3">
