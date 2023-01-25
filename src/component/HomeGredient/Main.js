@@ -20,7 +20,10 @@ import arr2 from "../../assets/images/arr2.jpg"
 import floatH2 from "../../assets/images/floatH2.jpg"
 import fuelProp from "../../assets/images/fuelProp.webp"
 import cp1 from "../../assets/images/cp1.jpg"
-// import { Arr2, Arr3, ChargeP1,ChargeP2,FuelProp } from '../../assets/images';
+import floatAcct from "../../assets/images/floatAcct.png"
+import floatApps from "../../assets/images/floatApps.png"
+import floatConfirm from "../../assets/images/floatConfirm.png"
+
 
 const Main = ({setnavbar,setfooter}) => {
     var site = getConfig()[0];
@@ -178,7 +181,7 @@ const Main = ({setnavbar,setfooter}) => {
                             <h3>01</h3>
                             </div>
                             <div className="step_img" data-aos="fade-left" data-aos-duration="1500">
-                            <img src="assets/images/download_app.jpg" alt="image" />
+                            <img src={floatApps} alt="image" />
                             </div>
                         </li>
 
@@ -192,7 +195,7 @@ const Main = ({setnavbar,setfooter}) => {
                             <h3>02</h3>
                             </div>
                             <div className="step_img" data-aos="fade-right" data-aos-duration="1500">
-                            <img src="assets/images/create_account.jpg" alt="image" />
+                            <img src={floatAcct} alt="image" />
                             </div>
                         </li>
 
@@ -206,7 +209,7 @@ const Main = ({setnavbar,setfooter}) => {
                             <h3>03</h3>
                             </div>
                             <div className="step_img" data-aos="fade-left" data-aos-duration="1500">
-                            <img src="assets/images/enjoy_app.jpg" alt="image" />
+                            <img src={floatConfirm} alt="image" />
                             </div>
                         </li>
                         </ul>
