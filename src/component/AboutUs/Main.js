@@ -35,8 +35,8 @@ const About = {
       },
     },
     appQuery: {
-      p1: "Lorem Ipsum is simply dummy text of the printing and typese tting ",
-      p2: "indus orem Ipsum has beenthe standard dummy.",
+      p1: "If you have an query, please get in touch with us, ",
+      p2: "we will revert back quickly.",
     },
   };
 
