@@ -5,6 +5,7 @@ import Bredcrumb from '../Bredcrumb/Main'
 import BGImg from "../../assets/images/bread_crumb_bg.png"
 import BGImg1 from "../../assets/images/bread_crumb_bg_one.png"
 import BGImg2 from "../../assets/images/bread_crumb_bg_two.png"
+import Fleet from "../../assets/images/fleet_tree.png"
 
 const About = {
     app_text: {
@@ -182,7 +183,7 @@ const Main = ({brdcum}) => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="abt_img" data-aos="fade-in" data-aos-duration="1500">
-                            <img src="assets/images/about_main.png" alt="image"/>
+                            <img src={Fleet} alt="image"/>
                         </div>
                     </div>
                     <div className="col-lg-6">
@@ -196,7 +197,7 @@ const Main = ({brdcum}) => {
                         <ul className="app_statstic" id="counter" data-aos="fade-in" data-aos-duration="1500">
                             <li>
                             <div className="icon">
-                                <img src="assets/images/download.png" alt="image" />
+                                {/*<img src="assets/images/download.png" alt="image" />*/}
                             </div>
                             <div className="text">
                                 <p><span className="counter-value" data-count="17">0</span><span>M+</span></p>
@@ -205,7 +206,7 @@ const Main = ({brdcum}) => {
                             </li>
                             <li>
                             <div className="icon">
-                                <img src="assets/images/followers.png" alt="image" />
+                                {/*<img src="assets/images/followers.png" alt="image" />*/}
                             </div>
                             <div className="text">
                                 <p><span className="counter-value" data-count="08">0 </span><span>M+</span></p>
@@ -214,7 +215,7 @@ const Main = ({brdcum}) => {
                             </li>
                             <li>
                             <div className="icon">
-                                <img src="assets/images/reviews.png" alt="image" />
+                                {/*<img src="assets/images/reviews.png" alt="image" />*/}
                             </div>
                             <div className="text">
                                 <p><span className="counter-value" data-count="2300">1500</span><span>+</span></p>
@@ -223,7 +224,7 @@ const Main = ({brdcum}) => {
                             </li>
                             <li>
                             <div className="icon">
-                                <img src="assets/images/countries.png" alt="image" />
+                                {/*<img src="assets/images/countries.png" alt="image" />*/}
                             </div>
                             <div className="text">
                                 <p><span className="counter-value" data-count="150">0</span><span>+</span></p>
