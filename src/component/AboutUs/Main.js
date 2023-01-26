@@ -26,7 +26,7 @@ const About = {
     why_text: {
       inner: {
         p1: "Our software takes you through the daily process of transitioning your fleet to Float.",
-        p2: "indus orem Ipsum has beenthe standard dummy.",
+        p2: "Self-Management Inclusive",
       },
       why_box: {
         p1: "We provide immediate and longer term changes to improve fleet performance.",
@@ -133,9 +133,9 @@ const Main = ({brdcum}) => {
                 <div className="row">
                     <div className="col-md-6 col-lg-3">
                     <div className="why_box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
-                        <div className="icon">
-                        <img src="assets/images/secure.png" alt="image"/>
-                        </div>
+                        {/*<div className="icon">*/}
+                        {/*<img src="assets/images/secure.png" alt="image"/>*/}
+                        {/*</div>*/}
                         <div className="text">
                         <h3>Secure code</h3>
                         <p>{why_box.p1}</p>
@@ -144,9 +144,9 @@ const Main = ({brdcum}) => {
                     </div>
                     <div className="col-md-6 col-lg-3">
                     <div className="why_box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
-                        <div className="icon">
-                        <img src="assets/images/abt_functional.png" alt="image"/>
-                        </div>
+                        {/*<div className="icon">*/}
+                        {/*<img src="assets/images/abt_functional.png" alt="image"/>*/}
+                        {/*</div>*/}
                         <div className="text">
                         <h3>Fully functional</h3>
                         <p>{why_box.p2}</p>
@@ -155,22 +155,22 @@ const Main = ({brdcum}) => {
                     </div>
                     <div className="col-md-6 col-lg-3">
                     <div className="why_box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
-                        <div className="icon">
-                        <img src="assets/images/communication.png" alt="image"/>
-                        </div>
+                        {/*<div className="icon">*/}
+                        {/*<img src="assets/images/communication.png" alt="image"/>*/}
+                        {/*</div>*/}
                         <div className="text">
-                        <h3>Best communication</h3>
+                        <h3>User-Friendly</h3>
                         <p>{why_box.p3}</p>
                         </div>
                     </div>
                     </div>
                     <div className="col-md-6 col-lg-3">
                     <div className="why_box" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
-                        <div className="icon">
-                        <img src="assets/images/abt_support.png" alt="image"/>
-                        </div>
+                        {/*<div className="icon">*/}
+                        {/*<img src="assets/images/abt_support.png" alt="image"/>*/}
+                        {/*</div>*/}
                         <div className="text">
-                        <h3>24-7 Support</h3>
+                        <h3>Support</h3>
                         <p>{why_box.p4}</p>
                         </div>
                     </div>
