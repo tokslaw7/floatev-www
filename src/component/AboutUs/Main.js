@@ -6,6 +6,7 @@ import BGImg from "../../assets/images/bread_crumb_bg.png"
 import BGImg1 from "../../assets/images/bread_crumb_bg_one.png"
 import BGImg2 from "../../assets/images/bread_crumb_bg_two.png"
 import Fleet from "../../assets/images/fleet_tree.png"
+import ManagerDash from "../../assets/images/Manager_Dash.png"
 
 const About = {
     app_text: {
@@ -115,7 +116,7 @@ const Main = ({brdcum}) => {
                                 <span className="play_icon"><img src="assets/images/play_black.png" alt="image"/></span>
                             </a>
                             </li>
-                            <li><img src="assets/images/abt_03.png" alt="" /></li>
+                            <li><img src={ManagerDash} alt="image" /></li>
                         </ul>
                         </div>
                     </div>
