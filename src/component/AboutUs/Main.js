@@ -7,8 +7,43 @@ import BGImg1 from "../../assets/images/bread_crumb_bg_one.png"
 import BGImg2 from "../../assets/images/bread_crumb_bg_two.png"
 import Fleet from "../../assets/images/fleet_tree.png"
 
+const About = {
+    app_text: {
+      top: {
+        p1: "Our platform analyzes current fleet behavior and display areas for improvement on our custom customer dashboard.",
+        p2: "Float saves their customers money from day one by analyzing their current fleet data on cost, emissions,time and resources and then makes recommendations on prioritization of vehicle replacements and infrastructure investments.",
+      },
+      bottom: {
+        header:
+          "Float's recommendation engine enables tracking of vehicle usage, ownership & service costs, fuel costs, emissions. Its Telematics IoT enabled OBD device & dashcam to connect directly to the vehicle to pull data.",
+        p1: "Download",
+        p2: "Followers",
+        p3: "Reviews",
+        p4: "Countries",
+      },
+    },
+    why_text: {
+      inner: {
+        p1: "Lorem Ipsum is simply dummy text of the printing and typese tting ",
+        p2: "indus orem Ipsum has beenthe standard dummy.",
+      },
+      why_box: {
+        p1: "We provide immediate and longer term changes to improve fleet performance.",
+        p2: "We integrate company data into Float recommendation engine to provide insights.",
+        p3: "Our software takes you through the daily process of transitioning your fleet to Float.",
+        p4: "We guide you step by step to convert to Electronic vehicles.",
+      },
+    },
+    appQuery: {
+      p1: "Lorem Ipsum is simply dummy text of the printing and typese tting ",
+      p2: "indus orem Ipsum has beenthe standard dummy.",
+    },
+  };
+
 const Main = ({brdcum}) => {
     const [ytShow , setytShow] = useState (false)
+
+    const {app_text: {top, bottom}, why_text: {inner, why_box}, appQuery} = About
 
   return (
     <>       
@@ -56,11 +91,10 @@ const Main = ({brdcum}) => {
                             <h2><span>Float analytical, recommendation</span> / rewards framework.</h2>
                         </div>
                         <p data-aos="fade-up" data-aos-duration="1500">
-                            Our platform analyzes current fleet behavior and display areas for improvement on our custom customer dashboard.
+                            {top.p1}
                         </p>
                             <p data-aos="fade-up" data-aos-duration="1500">
-                                Float saves their customers money from day one by analyzing their current fleet data on cost,
-                                emissions,time and resources and then makes recommendations on prioritization of vehicle replacements and infrastructure investments.
+                               {top.p2}
                             </p>
                         </div>
                     </div>
@@ -93,7 +127,7 @@ const Main = ({brdcum}) => {
                 <div className="container">
                 <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                     <h2><span>No,we are not just </span> another EV!</h2>
-                    <p>Our software takes you through the daily process of transitioning your fleet to Float.</p>
+                    <p>{inner.p1}<br />{inner.p2}</p>
                 </div>
                 <div className="row">
                     <div className="col-md-6 col-lg-3">
@@ -103,7 +137,7 @@ const Main = ({brdcum}) => {
                         </div>
                         <div className="text">
                         <h3>Secure code</h3>
-                        <p>We provide immediate and longer term changes to improve fleet performance.</p>
+                        <p>{why_box.p1}</p>
                         </div>
                     </div>
                     </div>
@@ -114,7 +148,7 @@ const Main = ({brdcum}) => {
                         </div>
                         <div className="text">
                         <h3>Fully functional</h3>
-                        <p>We integrate company data into Float recommendation engine to provide insights.</p>
+                        <p>{why_box.p2}</p>
                         </div>
                     </div>
                     </div>
@@ -124,8 +158,8 @@ const Main = ({brdcum}) => {
                         <img src="assets/images/communication.png" alt="image"/>
                         </div>
                         <div className="text">
-                        <h3>User-Friendly</h3>
-                        <p>Our software takes you through the daily process of transitioning your fleet to Float.</p>
+                        <h3>Best communication</h3>
+                        <p>{why_box.p3}</p>
                         </div>
                     </div>
                     </div>
@@ -135,8 +169,8 @@ const Main = ({brdcum}) => {
                         <img src="assets/images/abt_support.png" alt="image"/>
                         </div>
                         <div className="text">
-                        <h3>Support</h3>
-                        <p>We guide you step by step to convert to Electronic vehicles.</p>
+                        <h3>24-7 Support</h3>
+                        <p>{why_box.p4}</p>
                         </div>
                     </div>
                     </div>
@@ -157,7 +191,7 @@ const Main = ({brdcum}) => {
                         <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
                             <h2> <span>FLOAT</span> EV</h2>
                             <p>
-                                Float's recommendation engine enables tracking of vehicle usage, ownership & service costs, fuel costs, emissions. Its Telematics IoT enabled OBD device & dashcam to connect directly to the vehicle to pull data.
+                                {bottom.header}
                             </p>
                         </div>
                         <ul className="app_statstic" id="counter" data-aos="fade-in" data-aos-duration="1500">
@@ -166,8 +200,8 @@ const Main = ({brdcum}) => {
                                 {/*<img src="assets/images/download.png" alt="image" />*/}
                             </div>
                             <div className="text">
-                                <p><span>Recommendation</span></p>
-                                <p>Engine</p>
+                                <p><span className="counter-value" data-count="17">0</span><span>M+</span></p>
+                                <p>{bottom.p1}</p>
                             </div>
                             </li>
                             <li>
@@ -175,8 +209,8 @@ const Main = ({brdcum}) => {
                                 {/*<img src="assets/images/followers.png" alt="image" />*/}
                             </div>
                             <div className="text">
-                                <p><span>Performance</span></p>
-                                <p>Metrics</p>
+                                <p><span className="counter-value" data-count="08">0 </span><span>M+</span></p>
+                                <p>{bottom.p2}</p>
                             </div>
                             </li>
                             <li>
@@ -184,8 +218,8 @@ const Main = ({brdcum}) => {
                                 {/*<img src="assets/images/reviews.png" alt="image" />*/}
                             </div>
                             <div className="text">
-                                <p><span>Telematics</span></p>
-                                <p>Operations</p>
+                                <p><span className="counter-value" data-count="2300">1500</span><span>+</span></p>
+                                <p>{bottom.p3}</p>
                             </div>
                             </li>
                             <li>
@@ -193,8 +227,8 @@ const Main = ({brdcum}) => {
                                 {/*<img src="assets/images/countries.png" alt="image" />*/}
                             </div>
                             <div className="text">
-                                <p><span>Rewards</span></p>
-                                <span></span>
+                                <p><span className="counter-value" data-count="150">0</span><span>+</span></p>
+                                <p>{bottom.p4}</p>
                             </div>
                             </li>
                         </ul>
@@ -280,7 +314,7 @@ const Main = ({brdcum}) => {
                 
                     <div className="section_title">
                         <h2>Have any query about ?</h2>
-                        <p>“If you have an query, please get in touch with us, we will revert back quickly.”</p>
+                        <p>{appQuery.p1} <br/>{appQuery.p2}</p>
                     </div>
                     <Link to="/contact" className="btn white_btn">CONTACT US NOW</Link>
                 </div>
