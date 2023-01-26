@@ -20,9 +20,10 @@ import arr2 from "../../assets/images/arr2.jpg"
 import floatH2 from "../../assets/images/floatH2.jpg"
 import fuelProp from "../../assets/images/fuelProp.webp"
 import cp1 from "../../assets/images/cp1.jpg"
-import floatAcct from "../../assets/images/floatAcct.png"
+// import floatAcct from "../../assets/images/floatAcct.png"
 import floatApps from "../../assets/images/floatApps.png"
 import floatConfirm from "../../assets/images/floatConfirm.png"
+import floatLogin from "../../assets/images/floatLogin.png"
 
 
 const Main = ({setnavbar,setfooter}) => {
@@ -195,7 +196,7 @@ const Main = ({setnavbar,setfooter}) => {
                             <h3>02</h3>
                             </div>
                             <div className="step_img" data-aos="fade-right" data-aos-duration="1500">
-                            <img src={floatAcct} alt="image" />
+                            <img src={floatLogin} alt="image" />
                             </div>
                         </li>
 
