@@ -1177,7 +1177,7 @@ header.fixed .navbar {
 
 .how_it_works .step_block ul li .step_text,
 .how_it_works .step_block ul li .step_img {
-    width: 360px;
+    width: 25rem;
     text-align: right;
 }
 
@@ -1218,6 +1218,10 @@ header.fixed .navbar {
     font-weight: 600;
 }
 
+.how_it_works .step_block ul li .step_text p {
+    pointer-events: none;
+}
+
 .how_it_works .step_block ul li .step_text span a {
     color: var(--purple);
     text-decoration: underline;
@@ -1234,6 +1238,14 @@ header.fixed .navbar {
 .how_it_works .step_block ul li:nth-child(2) .step_text,
 .how_it_works .step_block ul li:nth-child(2) .step_img {
     text-align: left;
+}
+
+.how_it_works .step_block ul li .step_img img {
+    object-fit: contain;
+}
+
+.how_it_works .step_block ul li:nth-child(3) img {
+    max-height: 22.5rem;
 }
 
 /* how it works numbers */
