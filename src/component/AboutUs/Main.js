@@ -16,10 +16,10 @@ const About = {
       bottom: {
         header:
           "Float's recommendation engine enables tracking of vehicle usage, ownership & service costs, fuel costs, emissions. Its Telematics IoT enabled OBD device & dashcam to connect directly to the vehicle to pull data.",
-        p1: "Download",
-        p2: "Followers",
-        p3: "Reviews",
-        p4: "Countries",
+        p1: "Recommendation Engine",
+        p2: "Performance Metrics",
+        p3: "Telematics Operations",
+        p4: "Rewards",
       },
     },
     why_text: {
@@ -200,8 +200,8 @@ const Main = ({brdcum}) => {
                                 {/*<img src="assets/images/download.png" alt="image" />*/}
                             </div>
                             <div className="text">
-                                <p><span className="counter-value" data-count="17">0</span><span>M+</span></p>
-                                <p>{bottom.p1}</p>
+                                <p><span>{bottom.p1}</span></p>
+                                <p></p>
                             </div>
                             </li>
                             <li>
@@ -209,8 +209,8 @@ const Main = ({brdcum}) => {
                                 {/*<img src="assets/images/followers.png" alt="image" />*/}
                             </div>
                             <div className="text">
-                                <p><span className="counter-value" data-count="08">0 </span><span>M+</span></p>
-                                <p>{bottom.p2}</p>
+                                <p><span>{bottom.p2}</span></p>
+                                <p></p>
                             </div>
                             </li>
                             <li>
@@ -218,8 +218,8 @@ const Main = ({brdcum}) => {
                                 {/*<img src="assets/images/reviews.png" alt="image" />*/}
                             </div>
                             <div className="text">
-                                <p><span className="counter-value" data-count="2300">1500</span><span>+</span></p>
-                                <p>{bottom.p3}</p>
+                                <p><span>{bottom.p3}</span></p>
+                                <p></p>
                             </div>
                             </li>
                             <li>
@@ -227,8 +227,8 @@ const Main = ({brdcum}) => {
                                 {/*<img src="assets/images/countries.png" alt="image" />*/}
                             </div>
                             <div className="text">
-                                <p><span className="counter-value" data-count="150">0</span><span>+</span></p>
-                                <p>{bottom.p4}</p>
+                                <p><span>{bottom.p4}</span></p>
+                                <p></p>
                             </div>
                             </li>
                         </ul>
