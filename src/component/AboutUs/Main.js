@@ -24,7 +24,7 @@ const About = {
     },
     why_text: {
       inner: {
-        p1: "Lorem Ipsum is simply dummy text of the printing and typese tting ",
+        p1: "Our software takes you through the daily process of transitioning your fleet to Float.",
         p2: "indus orem Ipsum has beenthe standard dummy.",
       },
       why_box: {
