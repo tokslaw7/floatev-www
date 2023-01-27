@@ -950,11 +950,11 @@ header.fixed .navbar {
 /* Phone Frame Image */
 .about_app_section .about_img .frame_img {
     position: absolute;
-    width: 16.9rem;
-    height: 36rem;
+    width: 16rem;
+    height: 33rem;
     z-index: 0;
-    left: 9px;
-    bottom: 13px;
+    left: 17px;
+    bottom: 21px;
 }
 
 .about_app_section .about_img .frame_img img {
