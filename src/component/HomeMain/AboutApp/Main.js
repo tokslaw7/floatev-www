@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import React from 'react'
-import frame from '../../../assets/images/about-frame.png'
+import frame from '../../../assets/images/mobile_frame_svg.svg'
 import screen from '../../../assets/images/about-screen.png'
 import floatH3 from '../../../assets/images/floatH3.png'
 import floatDash from '../../../assets/images/floatDashB.jpg'
@@ -17,7 +17,7 @@ const Main = ({video , dark } ) => {
                             <img className="moving_position_animatin" src={floatDash} alt="image"/>
                         </div>
 
-                        <div>
+                        <div className='frame'>
                             <img className="moving_position_animatin" src={frame} alt="image"/>
                         </div>
 
