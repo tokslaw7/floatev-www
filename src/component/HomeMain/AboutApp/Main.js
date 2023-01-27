@@ -2,10 +2,8 @@ import { Link } from 'react-router-dom'
 import React from 'react'
 import frame from '../../../assets/images/about-frame.png'
 import screen from '../../../assets/images/about-screen.png'
-import img1 from '../../../assets/images/download.png'
-import img2 from '../../../assets/images/followers.png'
-import img3 from '../../../assets/images/reviews.png'
-import img4 from '../../../assets/images/countries.png'
+import floatH3 from '../../../assets/images/floatH3.png'
+import floatDash from '../../../assets/images/floatDashB.jpg'
 
 const Main = ({video , dark } ) => {
   return (
@@ -16,10 +14,15 @@ const Main = ({video , dark } ) => {
                     <div className="col-lg-6">
                         <div className="about_img" data-aos="fade-in" data-aos-duration="1500">
                         <div className="frame_img">
+                            <img className="moving_position_animatin" src={floatDash} alt="image"/>
+                        </div>
+
+                        <div>
                             <img className="moving_position_animatin" src={frame} alt="image"/>
                         </div>
+
                         <div className="screen_img">
-                            <img className="moving_animation" src={screen} alt="image" />
+                            <img className="moving_animation" src={floatH3} alt="image" />
                         </div>
                         </div>
                     </div>                   
