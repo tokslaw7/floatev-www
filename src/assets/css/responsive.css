@@ -135,11 +135,11 @@
     /* about app section */
     .about_app_section .row {flex-direction: column-reverse;}
     .about_app_section .about_img {justify-content: flex-start; margin-top: 75px; margin-left: 0;}
-    /* .about_app_section .about_img::before {left: 50%;} */
+    .about_app_section .about_img::before {left: 50%;}
     .about_app_section .about_img .screen_img {margin-left: -170px;}
     .about_app_section .about_text .app_statstic {justify-content: flex-start;}
     .about_app_section .about_text .app_statstic li {width: 35%; margin-right: 30px;}
-    /* .about_app_section .about_img::before {left: 35%;} */
+    .about_app_section .about_img::before {left: 35%;}
     
     /* modern ui section */
     .modern_ui_section .ui_images {margin-top: 30px;}
@@ -265,7 +265,7 @@
     .about_app_section .about_text .app_statstic li {width: 48%; margin-right: 0;}
     .about_app_section .about_text .app_statstic li p:first-child {font-size: 18px;}
     .about_app_section .about_img {margin: 0; margin-top: 50px; justify-content: center;}
-    /* .about_app_section .about_img::before {width: 350px; height: 350px;} */
+    .about_app_section .about_img::before {width: 350px; height: 350px;}
 
     /* modern ui section */
     .modern_ui_section .ui_images {margin-top: 10px;}
@@ -450,5 +450,5 @@
 
 @media screen and (max-width:479px) {
     /* about app section */
-    /* .about_app_section .about_img::before {left: 49%;} */
+    .about_app_section .about_img::before {left: 49%;}
 }
