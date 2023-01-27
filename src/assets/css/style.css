@@ -944,23 +944,23 @@ header.fixed .navbar {
 /* about us section images*/
 .about_app_section .about_img img {
     max-width: 100%;
-    border-radius: 15px;
+    border-radius: 20px 20px 30px 30px;
 }
 
 /* Phone Frame Image */
 .about_app_section .about_img .frame_img {
     position: absolute;
-    max-width: 15rem;
-    width: 100%;
-    height: 32rem;
+    width: 16.9rem;
+    height: 36rem;
     z-index: 0;
     left: 9px;
-    bottom: 7px;
+    bottom: 13px;
 }
 
 .about_app_section .about_img .frame_img img {
     height: 100%;
-    object-fit: none;
+    object-fit: cover;
+    object-position: 0% 0;
 }
 
 .about_app_section .about_img::before {
@@ -982,7 +982,8 @@ header.fixed .navbar {
 }
 
 .about_app_section .about_img .screen_img img {
-    object-fit: none;
+    width: 100%;
+    object-fit: contain;
 }
 
 .about_app_section .about_text .section_title {

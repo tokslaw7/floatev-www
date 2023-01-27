@@ -140,6 +140,7 @@
     .about_app_section .about_text .app_statstic {justify-content: flex-start;}
     .about_app_section .about_text .app_statstic li {width: 35%; margin-right: 30px;}
     .about_app_section .about_img::before {left: 35%;}
+    .about_app_section .about_img .frame_img {max-width: 17.8rem; height: 37.59rem;}
     
     /* modern ui section */
     .modern_ui_section .ui_images {margin-top: 30px;}
