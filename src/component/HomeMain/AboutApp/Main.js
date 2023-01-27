@@ -14,7 +14,7 @@ const Main = ({video , dark } ) => {
                     <div className="col-lg-6">
                         <div className="about_img" data-aos="fade-in" data-aos-duration="1500">
                         <div className="frame_img">
-                            <img className="moving_position_animatin" src={floatDash} alt="image"/>
+                            <img className="moving_position_animatin" src={floatH3} alt="image"/>
                         </div>
 
                         <div className='frame'>
@@ -22,7 +22,7 @@ const Main = ({video , dark } ) => {
                         </div>
 
                         <div className="screen_img">
-                            <img className="moving_animation" src={floatH3} alt="image" />
+                            <img className="moving_animation" src={floatDash} alt="image" />
                         </div>
                         </div>
                     </div>                   
