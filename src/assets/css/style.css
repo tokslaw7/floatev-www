@@ -1213,6 +1213,11 @@ header.fixed .navbar {
 /* how it works image */
 .how_it_works .step_block ul li .step_img img {
     max-width: 100%;
+    scale: 1.25;
+}
+
+.how_it_works .step_block ul li:nth-child(3) img {
+    scale: 0.85;
 }
 
 /* how it works heading h4 */
@@ -1267,14 +1272,6 @@ header.fixed .navbar {
 .how_it_works .step_block ul li:nth-child(2) .step_text,
 .how_it_works .step_block ul li:nth-child(2) .step_img {
     text-align: left;
-}
-
-.how_it_works .step_block ul li .step_img img {
-    object-fit: contain;
-}
-
-.how_it_works .step_block ul li:nth-child(3) img {
-    max-height: 22.5rem;
 }
 
 /* how it works numbers */
