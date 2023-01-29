@@ -4603,15 +4603,27 @@ header.fix_style.white_header {
 } 
 
 .home-gredient .banner_images.image_box1 img{
-    max-width: 165px;
+    max-width: 219px;
+    min-height: 190px;
     width: 100%;
 }
 
-.home-gredient .banner_images.image_box2 img{
+/* .home-gredient .banner_images.image_box2 img{
     max-width: 267px;
     max-height: 14rem;
     width: 100%;
+} */
+
+.home-gredient .banner_images.image_box2 .banner_image3 img{
+    width: 17.938rem;
+    max-height: 9.938rem;
 }
+
+.home-gredient .banner_images.image_box2 .banner_image4 img{
+    max-width: 21.25rem;
+    min-height: 31.625rem;
+}
+
 
 .home-gredient .banner_text img{
     max-width: 267px;
