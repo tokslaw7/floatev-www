@@ -1055,8 +1055,9 @@ header.fixed .navbar {
 }
 
 .modern_ui_section .ui_text {
-    max-width: 27rem;
+    max-width: 32rem;
     width: 100%;
+    text-align: justify;
 }
 
 /* modern ui list */
@@ -1114,11 +1115,6 @@ header.fixed .navbar {
     border-radius: 100%;
     background-color: var(--bg-white);
     z-index: -1;
-}
-
-.modern_ui_section  .left_img img{
-    max-width: 37rem;
-    width: 100%;
 }
 
 .gredient-bg .ui_images::before {

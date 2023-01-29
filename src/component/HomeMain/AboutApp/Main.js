@@ -3,7 +3,7 @@ import React from 'react'
 import frame from '../../../assets/images/mobile_frame_svg.svg'
 import screen from '../../../assets/images/about-screen.png'
 import floatH3 from '../../../assets/images/floatH3.png'
-import floatDash from '../../../assets/images/floatDashB.jpg'
+import floatDash from '../../../assets/images/dashboardImg.png'
 
 const Main = ({video , dark } ) => {
   return (
