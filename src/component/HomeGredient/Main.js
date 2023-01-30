@@ -22,8 +22,8 @@ import fuelProp from "../../assets/images/fuelProp.webp"
 import cp1 from "../../assets/images/cp1.jpg"
 // import floatAcct from "../../assets/images/floatAcct.png"
 import floatApps from "../../assets/images/floatApps.png"
-import floatConfirm from "../../assets/images/floatConfirm.png"
-import floatLogin from "../../assets/images/floatLogin.png"
+import Enjoy from "../../assets/images/mobile_app_01.png"
+import Account from "../../assets/images/create_acc.png"
 
 
 const Main = ({setnavbar,setfooter}) => {
@@ -59,7 +59,7 @@ const Main = ({setnavbar,setfooter}) => {
                                         </li>
                                         <li>
                                             <a href={site.apple_app}>
-                                                <img src="assets/images/googleplay_blue.png" alt="image" />
+                                                <img src={blue} alt="image" />
                                             </a>
                                         </li>
                                     </ul>
@@ -196,7 +196,7 @@ const Main = ({setnavbar,setfooter}) => {
                             <h3>02</h3>
                             </div>
                             <div className="step_img" data-aos="fade-right" data-aos-duration="1500">
-                            <img src={floatLogin} alt="image" />
+                            <img src={Account} alt="image" />
                             </div>
                         </li>
 
@@ -210,7 +210,7 @@ const Main = ({setnavbar,setfooter}) => {
                             <h3>03</h3>
                             </div>
                             <div className="step_img" data-aos="fade-left" data-aos-duration="1500">
-                            <img src={floatConfirm} alt="image" />
+                            <img src={Enjoy} alt="image" />
                             </div>
                         </li>
                         </ul>
