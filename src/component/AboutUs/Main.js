@@ -7,6 +7,10 @@ import BGImg1 from "../../assets/images/bread_crumb_bg_one.png"
 import BGImg2 from "../../assets/images/bread_crumb_bg_two.png"
 import Fleet from "../../assets/images/fleet_tree.png"
 import ManagerDash from "../../assets/images/Manager_Dash.png"
+//import AboutImg from "../../assets/images/about_dash.png"
+import Reward from "../../assets/images/Rewards_01.png"
+import Bottom from "../../assets/images/bottom_01.png"
+import Top from "../../assets/images/top_main.png"
 
 const About = {
     app_text: {
@@ -102,12 +106,12 @@ const Main = ({brdcum}) => {
                     <div className="col-lg-6">
                         <div className="app_images" data-aos="fade-in" data-aos-duration="1500">
                         <ul>
-                            <li><img src="assets/images/abt_01.png" alt="" /></li>
+                            <li><img src={Top} alt="" /></li>
                             <li>
                             <a data-url="#" onClick = {() => setytShow(true)}  className="popup-youtube play-button"
                                 data-toggle="modal"
                                 data-target="#myModal" title="About Video">
-                                <img src="assets/images/abt_02.png" alt="" />
+                                <img src={Reward} alt="" />
                                 <div className="waves-block">
                                 <div className="waves wave-1"></div>
                                 <div className="waves wave-2"></div>
@@ -116,7 +120,7 @@ const Main = ({brdcum}) => {
                                 <span className="play_icon"><img src="assets/images/play_black.png" alt="image"/></span>
                             </a>
                             </li>
-                            <li><img src={ManagerDash} alt="image" /></li>
+                            <li><img src={Bottom} alt="image" /></li>
                         </ul>
                         </div>
                     </div>
