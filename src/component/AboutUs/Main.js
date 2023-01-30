@@ -36,7 +36,7 @@ const About = {
       },
     },
     appQuery: {
-      p1: "If you have an query, please get in touch with us, ",
+      p1: "If you have an questions, please get in touch with us, ",
       p2: "we will revert back quickly.",
     },
   };
@@ -314,7 +314,7 @@ const Main = ({brdcum}) => {
                     <span className="banner_shape3"> <img src="assets/images/banner-shape3.png" alt="image" /> </span>
                 
                     <div className="section_title">
-                        <h2>Have any query about ?</h2>
+                        <h2>Have any questions?</h2>
                         <p>{appQuery.p1} <br/>{appQuery.p2}</p>
                     </div>
                     <Link to="/contact" className="btn white_btn">CONTACT US NOW</Link>
