@@ -91,7 +91,7 @@ const Main = ({footer}) => {
                                     </li>
                                     <li>
                                         <a href={site.apple_app}>
-                                            <img src="assets/images/googleplay_blue.png" alt="image" />
+                                            <img src={blue} alt="image" />
                                         </a>
                                     </li>
                                 </ul>

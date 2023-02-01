@@ -172,10 +172,10 @@ const Main = ({setnavbar,setfooter}) => {
                             <div className="step_text" data-aos="fade-right" data-aos-duration="1500">
                             <h4>Download app</h4>
                             <div className="app_icon">
-                                <a href="#"><i className="icofont-brand-android-robot"></i></a>
+                                <a href={site.apple_app}><i className="icofont-brand-android-robot"></i></a>
                                 <a href={site.apple_app}><i className="icofont-brand-apple"></i></a>
                             </div>
-                            <p>Download App either for Windows, Mac or Android</p>
+                            <p>Download App either for Apple or Android</p>
                             </div>
                             <div className="step_number number1">
                             <h3>01</h3>
