@@ -56,7 +56,7 @@ const Main = ({gredient}) => {
                             </div>
                             <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                                 <div className="card-body">
-                                <p>Subscribe to the plan preferred and we take care of the entire conversion process and provide you with a personalized metrics and analytics system galley of type and</p>
+                                <p>Subscribe to the plan preferred and we take care of the entire conversion process and provide you with a personalized metrics and analytics system</p>
                                 </div>
                             </div>
                         </div>
