@@ -164,8 +164,8 @@ const Main = ({setnavbar,setfooter}) => {
                 <div className="how_it_inner">
                     <div className="section_title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
                         <h2><span>How it works</span> - 3 easy steps</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typese tting <br/> indus orem Ipsum has beenthe
-                        standard dummy.</p>
+                        <p>Your EV fleet performance metrics are in one place, easy to locate any useful information analyze data and
+                            compare results.</p>
                     </div>
                     <div className="step_block">
                         <ul>
