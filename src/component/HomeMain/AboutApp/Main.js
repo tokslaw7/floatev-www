@@ -88,7 +88,7 @@ const Main = ({video , dark } ) => {
                                 </div>
                                 </li>
                             </ul>}
-                            <Link to="/contact" className="btn puprple_btn" data-aos="fade-in" data-aos-duration="1500">START FREE TRIAL</Link>
+                            <Link to="/" className="btn puprple_btn" data-aos="fade-in" data-aos-duration="1500">GET STARTED</Link>
                         </div>
                     </div>
                 </div>
