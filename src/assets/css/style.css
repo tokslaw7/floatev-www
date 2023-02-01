@@ -2812,7 +2812,10 @@ header.fix_style.white_header {
 
 /* About-Page-Sectino */
 
-.about_page_sectino img {max-width: 100%;}
+.about_page_sectino img {
+    max-width: 100%;
+    border-radius: 25px;
+}
 
 /* -----------experts_team_sectio---------- */
 
