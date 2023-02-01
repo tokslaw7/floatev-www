@@ -5,12 +5,12 @@ import BGImg from "../../../assets/images/bread_crumb_bg.png"
 import BGImg1 from "../../../assets/images/bread_crumb_bg_one.png"
 import BGImg2 from "../../../assets/images/bread_crumb_bg_two.png"
 import blueapp from "../../../assets/images/appstore_blue.png";
-import blue from "../../../assets/images/googleplay_blue.png";
-//import getConfig from "../Config/config"
+//import blue from "../../../assets/images/googleplay_blue.png";
+import getConfig from "../../Config/config"
 
 
 const Main = ({brdcum}) => {
-    //var site = getConfig()[0];
+    var site = getConfig()[0];
 
     const[activeFaq, setActiveFaq] = useState({a : true})
   return (
@@ -210,9 +210,9 @@ const Main = ({brdcum}) => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href={site.apple_app}>
-                                        <img src={blue} alt="image" />
-                                    </a>
+                                    <Link to="#">
+                                    <img src="assets/images/googleplay_blue.png" alt="image" />
+                                    </Link>
                                 </li>
                                 </ul>
                             </div>

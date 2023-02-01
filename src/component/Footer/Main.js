@@ -74,7 +74,7 @@ const Main = ({footer}) => {
                                 <ul>
                                 <li><Link to="/faq">FAQs</Link></li>
                                 <li><Link to="#">Support</Link></li>
-                                <li><Link to="/how_it_work">How it works</Link></li>
+                                <li><Link to="how_it_work">How it works</Link></li>
                                 <li><Link to="/terms">Terms & conditions</Link></li>
                                 <li><Link to="/privacy">Privacy policy</Link></li>
                                 </ul>
@@ -271,7 +271,7 @@ const Main = ({footer}) => {
                             <ul>
                                 <li><Link to="/faq">FAQs</Link></li>
                                 <li><Link to="#">Support</Link></li>
-                                <li><Link to="/how_it_work">How it works</Link></li>
+                                <li><Link to="how_it_work">How it works</Link></li>
                                 <li><Link to="/terms">Terms & conditions</Link></li>
                                 <li><Link to="/privacy">Privacy policy</Link></li>
                             </ul>
@@ -370,7 +370,7 @@ const Main = ({footer}) => {
                             <ul>
                             <li><Link to="/faq">FAQs</Link></li>
                             <li><Link to="#">Support</Link></li>
-                            <li><Link to="/how_it_work">How it works</Link></li>
+                            <li><Link to="how_it_work">How it works</Link></li>
                             <li><Link to="/terms">Terms & conditions</Link></li>
                             <li><Link to="/privacy">Privacy policy</Link></li>
                             </ul>
@@ -466,7 +466,7 @@ const Main = ({footer}) => {
                         </div>
                         <div className="col-lg-3 col-md-6 col-12">
                             <div className="links">
-                            <h3>Help & Suport</h3>
+                            <h3>Help & Support</h3>
                                 <ul>
                                 <li><Link to="/faq">FAQs</Link></li>
                                 <li><Link to="#">Support</Link></li>

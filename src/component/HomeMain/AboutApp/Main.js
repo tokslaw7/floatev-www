@@ -76,6 +76,7 @@ const Main = ({video , dark } ) => {
                                 </div> */}
                                 <div className="text">
                                     <p><span>Telematics</span></p>
+                                    <p>Operations</p>
                                 </div>
                                 </li>
                                 <li>
@@ -84,6 +85,7 @@ const Main = ({video , dark } ) => {
                                 </div> */}
                                 <div className="text">
                                     <p><span>Rewards</span></p>
+                                    <p></p>
                                     {/* <p>Countries</p> */}
                                 </div>
                                 </li>
