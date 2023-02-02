@@ -139,7 +139,7 @@ const Main = ({dark}) => {
                 </div>}
             </div>
         </section>
-        {ytShow &&
+        {/* {ytShow &&
         <>
         <div className="modal fade youtube-video show" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-modal="true" style={{paddingRight: "17px", display: "block"}}>
             <div className="modal-dialog" role="document">
@@ -158,7 +158,7 @@ const Main = ({dark}) => {
             </div>
         </div>
         <div className="purple_backdrop"></div>
-        </>}
+        </>} */}
     </>
   )
 }

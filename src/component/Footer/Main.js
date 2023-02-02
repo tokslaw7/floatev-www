@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import React  from 'react'
 import line from '../../assets/images/anim_line.png'
 import blueapp from '../../assets/images/appstore_blue.png'
@@ -74,7 +75,7 @@ const Main = ({footer}) => {
                                 <ul>
                                 <li><Link to="/faq">FAQs</Link></li>
                                 <li><Link to="#">Support</Link></li>
-                                <li><Link to="how_it_work">How it works</Link></li>
+                                <li><HashLink smooth to="/#how_it_work">How it works</HashLink></li>
                                 <li><Link to="/terms">Terms & conditions</Link></li>
                                 <li><Link to="/privacy">Privacy policy</Link></li>
                                 </ul>
@@ -271,7 +272,7 @@ const Main = ({footer}) => {
                             <ul>
                                 <li><Link to="/faq">FAQs</Link></li>
                                 <li><Link to="#">Support</Link></li>
-                                <li><Link to="how_it_work">How it works</Link></li>
+                                <li><HashLink smooth to="/#how_it_work">How it works</HashLink></li>
                                 <li><Link to="/terms">Terms & conditions</Link></li>
                                 <li><Link to="/privacy">Privacy policy</Link></li>
                             </ul>
@@ -370,7 +371,7 @@ const Main = ({footer}) => {
                             <ul>
                             <li><Link to="/faq">FAQs</Link></li>
                             <li><Link to="#">Support</Link></li>
-                            <li><Link to="how_it_work">How it works</Link></li>
+                            <li><HashLink smooth to="/#how_it_work">How it works</HashLink></li>
                             <li><Link to="/terms">Terms & conditions</Link></li>
                             <li><Link to="/privacy">Privacy policy</Link></li>
                             </ul>
@@ -470,7 +471,7 @@ const Main = ({footer}) => {
                                 <ul>
                                 <li><Link to="/faq">FAQs</Link></li>
                                 <li><Link to="#">Support</Link></li>
-                                <li><Link to="/how_it_work">How it works</Link></li>
+                                <li><HashLink smooth to="/#how_it_work">How it works</HashLink></li>
                                 <li><Link to="/terms">Terms & conditions</Link></li>
                                 <li><Link to="/privacy">Privacy policy</Link></li>
                                 </ul>
