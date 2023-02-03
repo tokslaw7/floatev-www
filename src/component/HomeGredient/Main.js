@@ -222,7 +222,7 @@ const Main = ({setnavbar,setfooter}) => {
         {/*< Pricing gredient = {true}/>*/}
         < Faq gredient = {true}/>
         {/*< Interface />*/}
-        {/*< Download />*/}
+        < Download />
         {/*< Story />*/}
         {/*< Trusted />*/}
     </>
