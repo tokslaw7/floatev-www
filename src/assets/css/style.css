@@ -460,11 +460,8 @@ header.fixed .navbar {
     color: #000 !important;
 }
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> master
 .navbar-expand-lg .navbar-nav .nav-link.dark_btn {
     color: var(--text-white);
     background-color: var(--purple);
