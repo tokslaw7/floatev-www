@@ -19,7 +19,7 @@ const Main = ({title,tag,bgimg,paragraph,no}) => {
                         <ul>
                             <li><Link to="/">Home</Link></li>
                             <li><span>»</span></li>
-                            <li><Link to="/about">{tag}</Link></li>
+                            <li><Link to='#'>{tag}</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -39,7 +39,7 @@ const Main = ({title,tag,bgimg,paragraph,no}) => {
                         <ul>
                             <li><Link to="/">Home</Link></li>
                             <li><span>»</span></li>
-                            <li><Link to="/about">{tag}</Link></li>
+                            <li><Link to='#'>{tag}</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const Main = ({title,tag,bgimg,paragraph,no}) => {
                         <ul>
                             <li><Link to="/">Home</Link></li>
                             <li><span>»</span></li>
-                            <li><Link to="/about">{tag}</Link></li>
+                            <li><Link to='#'>{tag}</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ const Main = ({title,tag,bgimg,paragraph,no}) => {
                         <ul>
                             <li><Link to="/">Home</Link></li>
                             <li><span>»</span></li>
-                            <li><Link to="/about">{tag}</Link></li>
+                            <li><Link to='#'>{tag}</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -96,7 +96,7 @@ const Main = ({title,tag,bgimg,paragraph,no}) => {
                         <ul>
                             <li><Link to="/">Home</Link></li>
                             <li><span>»</span></li>
-                            <li><Link to="/about">{tag}</Link></li>
+                            <li><Link to='#'>{tag}</Link></li>
                         </ul>
                     </div>
                 </div>

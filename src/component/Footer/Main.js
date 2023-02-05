@@ -33,8 +33,8 @@ const Main = ({footer}) => {
                             <div className="abt_side">
                                 <div className="logo"> <img src={logo} alt="image" /></div>
                                 <ul>
-                                <li><Link to="#">{site.support_email}</Link></li>
-                                <li><Link to="#">{site.support_phone}</Link></li>
+                                <li><a href={`mailto: ${site.support_email}`}>{site.support_email}</a></li>
+                                <li><a href={`tel: ${site.support_phone}`}>{site.support_phone}</a></li>
                                 </ul>
                                 <ul className="social_media">
                                         <li>
@@ -64,7 +64,7 @@ const Main = ({footer}) => {
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="/about">About us</Link></li>
                                     <li><Link to="#">Services</Link></li>
-                                    <li><a href={site.dash_url_blog}>Blog</a></li>
+                                    <li><a href={site.dash_url_blog} target='_blank'>Blog</a></li>
                                     <li><Link to="/contact">Contact us</Link></li>
                                 </ul>
                             </div>
@@ -130,8 +130,8 @@ const Main = ({footer}) => {
                             <div className="abt_side">
                                 <div className="logo"> <img src={logo} alt="image" /></div>
                                 <ul>
-                                    <li><Link to="#">{site.support_email}</Link></li>
-                                    <li><Link to="#">{site.support_phone}</Link></li>
+                                <li><a href={`mailto: ${site.support_email}`}>{site.support_email}</a></li>
+                                <li><a href={`tel: ${site.support_phone}`}>{site.support_phone}</a></li>
                                 </ul>
                                 <ul className="social_media">
 
@@ -163,7 +163,7 @@ const Main = ({footer}) => {
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="/about">About us</Link></li>
                                     <li><Link to="#">Services</Link></li>
-                                    <li><a href={site.dash_url_blog}>Blog</a></li>
+                                    <li><a href={site.dash_url_blog} target='_blank'>Blog</a></li>
                                     <li><Link to="/contact">Contact us</Link></li>
                                 </ul>
                             </div>
@@ -227,8 +227,8 @@ const Main = ({footer}) => {
                         <div className="abt_side">
                             <div className="logo"> <img src={logo} alt="image" /></div>
                             <ul>
-                                <li><Link to="#">{site.support_email}</Link></li>
-                                <li><Link to="#">{site.support_phone}</Link></li>
+                            <li><a href={`mailto: ${site.support_email}`}>{site.support_email}</a></li>
+                                <li><a href={`tel: ${site.support_phone}`}>{site.support_phone}</a></li>
                             </ul>
                             <ul className="social_media">
 
@@ -260,7 +260,7 @@ const Main = ({footer}) => {
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/about">About us</Link></li>
                                 <li><Link to="#">Services</Link></li>
-                                <li><a href={site.dash_url_blog}>Blog</a></li>
+                                <li><a href={site.dash_url_blog} target='_blank'>Blog</a></li>
                                 <li><Link to="/contact">Contact us</Link></li>
                             </ul>
                         </div>
@@ -326,8 +326,8 @@ const Main = ({footer}) => {
                         <div className="abt_side">
                             <div className="logo"> <img src={logo} alt="image" /></div>
                             <ul>
-                                <li><Link to="#">{site.support_email}</Link></li>
-                                <li><Link to="#">{site.support_phone}</Link></li>
+                            <li><a href={`mailto: ${site.support_email}`}>{site.support_email}</a></li>
+                                <li><a href={`tel: ${site.support_phone}`}>{site.support_phone}</a></li>
                             </ul>
                             <ul className="social_media">
 
@@ -359,7 +359,7 @@ const Main = ({footer}) => {
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/about">About us</Link></li>
                                 <li><Link to="#">Services</Link></li>
-                                <li><a href={site.dash_url_blog}>Blog</a></li>
+                                <li><a href={site.dash_url_blog} target='_blank'>Blog</a></li>
                                 <li><Link to="/contact">Contact us</Link></li>
                             </ul>
                         </div>
