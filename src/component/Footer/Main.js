@@ -33,8 +33,8 @@ const Main = ({footer}) => {
                             <div className="abt_side">
                                 <div className="logo"> <img src={logo} alt="image" /></div>
                                 <ul>
-                                <li><a href={`mailto: ${site.support_email}`}>{site.support_email}</a></li>
-                                <li><a href={`tel: ${site.support_phone}`}>{site.support_phone}</a></li>
+                                <li><a href={`mailto:${site.support_email}`}>{site.support_email}</a></li>
+                                <li><a href={`tel:${site.support_phone}`}>{site.support_phone}</a></li>
                                 </ul>
                                 <ul className="social_media">
                                         <li>
@@ -130,8 +130,8 @@ const Main = ({footer}) => {
                             <div className="abt_side">
                                 <div className="logo"> <img src={logo} alt="image" /></div>
                                 <ul>
-                                <li><a href={`mailto: ${site.support_email}`}>{site.support_email}</a></li>
-                                <li><a href={`tel: ${site.support_phone}`}>{site.support_phone}</a></li>
+                                <li><a href={`mailto:${site.support_email}`}>{site.support_email}</a></li>
+                                <li><a href={`tel:${site.support_phone}`}>{site.support_phone}</a></li>
                                 </ul>
                                 <ul className="social_media">
 
@@ -227,8 +227,8 @@ const Main = ({footer}) => {
                         <div className="abt_side">
                             <div className="logo"> <img src={logo} alt="image" /></div>
                             <ul>
-                            <li><a href={`mailto: ${site.support_email}`}>{site.support_email}</a></li>
-                                <li><a href={`tel: ${site.support_phone}`}>{site.support_phone}</a></li>
+                            <li><a href={`mailto:${site.support_email}`}>{site.support_email}</a></li>
+                                <li><a href={`tel:${site.support_phone}`}>{site.support_phone}</a></li>
                             </ul>
                             <ul className="social_media">
 
@@ -326,8 +326,8 @@ const Main = ({footer}) => {
                         <div className="abt_side">
                             <div className="logo"> <img src={logo} alt="image" /></div>
                             <ul>
-                            <li><a href={`mailto: ${site.support_email}`}>{site.support_email}</a></li>
-                                <li><a href={`tel: ${site.support_phone}`}>{site.support_phone}</a></li>
+                            <li><a href={`mailto:${site.support_email}`}>{site.support_email}</a></li>
+                                <li><a href={`tel:${site.support_phone}`}>{site.support_phone}</a></li>
                             </ul>
                             <ul className="social_media">
 
