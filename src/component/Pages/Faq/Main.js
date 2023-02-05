@@ -5,6 +5,8 @@ import BGImg from "../../../assets/images/bread_crumb_bg.png"
 import BGImg1 from "../../../assets/images/bread_crumb_bg_one.png"
 import BGImg2 from "../../../assets/images/bread_crumb_bg_two.png"
 import blueapp from "../../../assets/images/appstore_blue.png";
+import screen from "../../../assets/images/floatPhoneImg1.png";
+import screen1 from "../../../assets/images/floatPhoneImg2.png";
 //import blue from "../../../assets/images/googleplay_blue.png";
 import getConfig from "../../Config/config"
 
@@ -219,8 +221,8 @@ const Main = ({brdcum}) => {
                         </div>
                         <div className="col-md-6">
                             <div className="free_img">
-                                <img src="assets/images/download-screen01.png" alt="image" />
-                                <img className="mobile_mockup" src="assets/images/download-screen02.png" alt="image" />
+                                <img src={screen1} alt="image" />
+                                <img className="mobile_mockup" src={screen} alt="image" />
                             </div>
                         </div>
                     </div>
