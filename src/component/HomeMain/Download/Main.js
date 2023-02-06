@@ -11,20 +11,20 @@ const Main = () => {
     const [animate, setanimate] = useState()
    
 
-    const [purple, setpurple] = useState()
-    window.addEventListener('scroll', function() {
-        const element = document.getElementsByClassName('free_text');
-        const position = element[0].getBoundingClientRect();
+    // const [purple, setpurple] = useState()
+    // window.addEventListener('scroll', function() {
+    //     const element = document.getElementsByClassName('free_text');
+    //     const position = element[0].getBoundingClientRect();
         
-        if(position.top < window.innerHeight && position.bottom >= 0) {
-            const elm = document.getElementsByClassName("purple_backdrop");
-            elm[0].style.opacity = "1"; 
-        }else{
-            const elm = document.getElementsByClassName("purple_backdrop");
-            elm[0].style.opacity = "0"; 
+    //     if(position.top < window.innerHeight && position.bottom >= 0) {
+    //         const elm = document.getElementsByClassName("purple_backdrop");
+    //         elm[0].style.opacity = "1"; 
+    //     }else{
+    //         const elm = document.getElementsByClassName("purple_backdrop");
+    //         elm[0].style.opacity = "0"; 
 
-        }
-    });
+    //     }
+    // });
 
   return (
     <>
@@ -74,7 +74,7 @@ const Main = () => {
                 </div>
             </div>
         </section>
-        <div className="purple_backdrop"></div>
+        {/* <div className="purple_backdrop"></div> */}
     </>
   )
 }

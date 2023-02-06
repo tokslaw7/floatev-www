@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 import React  from 'react'
 import { HashLink } from 'react-router-hash-link'
 import line from '../../assets/images/anim_line.png'

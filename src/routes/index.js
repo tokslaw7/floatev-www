@@ -20,6 +20,7 @@ import HomeVideoTwo from '../component/HomeVideoTwo/Main'
 import Terms from '../component/Terms/Main'
 import Privacy from '../component/Privacy/Main'
 import Work from '../component/HomeMain/Work/Main'
+import Download from '../component/HomeMain/Download/Main'
 
 
 const Routing = () => {
@@ -96,6 +97,7 @@ const Routing = () => {
                 <Route path="/terms" element={<Terms brdcum={brdcum} />} />
                 <Route path="/privacy" element={<Privacy brdcum={brdcum} />} />
                 <Route path="/pricing" element={< Pricing brdcum = {brdcum}/>} />
+                <Route path="/download" element={<Download brdcum = {brdcum}/>} />
                 <Route path="/blog" element={< Blog brdcum = {brdcum}/>} />
                 <Route path="/blog-single" element={< BlogSingle brdcum = {brdcum}/>} />
                 <Route path="/home-dark" element={< HomeDark setfooter = {setfooter} setnavbar = {setnavbar} setbrdcum = {setbrdcum}/>} />

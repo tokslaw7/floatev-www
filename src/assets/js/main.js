@@ -191,16 +191,16 @@ window.addEventListener('scroll', function() {
 
 // --------Magnify-popup
 
-$(function() {
-    $('.popup-youtube').magnificPopup({
-        disableOn: 700,
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        removalDelay: 160,
-        preloader: false,
-        fixedContentPos: false
-    });
-});
+// $(function() {
+//     $('.popup-youtube').magnificPopup({
+//         disableOn: 700,
+//         type: 'iframe',
+//         mainClass: 'mfp-fade',
+//         removalDelay: 160,
+//         preloader: false,
+//         fixedContentPos: false
+//     });
+// });
 
 
 // Pricing Section Year Month Jquery
@@ -336,18 +336,18 @@ $(window).scroll(function(){
 
 
 //YOUTUBE VIDEO
-$('.play-button').click(function(e){
-  var iframeEl = $('<iframe>', { src: $(this).data('url') });
-  $('#youtubevideo').attr('src', $(this).data('url'));
-})
+// $('.play-button').click(function(e){
+//   var iframeEl = $('<iframe>', { src: $(this).data('url') });
+//   $('#youtubevideo').attr('src', $(this).data('url'));
+// })
 
-$('#close-video').click(function(e){
-  $('#youtubevideo').attr('src', '');
-}); 
+// $('#close-video').click(function(e){
+//   $('#youtubevideo').attr('src', '');
+// }); 
 
-$(document).on('hidden.bs.modal','#myModal', function () {
-  $('#youtubevideo').attr('src', '');
-}); 
+// $(document).on('hidden.bs.modal','#myModal', function () {
+//   $('#youtubevideo').attr('src', '');
+// }); 
 
 
 
