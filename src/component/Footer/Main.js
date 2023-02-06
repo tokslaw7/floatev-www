@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import { HashLink } from 'react-router-hash-link'
 import React  from 'react'
-import { HashLink } from 'react-router-hash-link'
 import line from '../../assets/images/anim_line.png'
 import blueapp from '../../assets/images/appstore_blue.png'
 import blue from '../../assets/images/googleplay_blue.png'
