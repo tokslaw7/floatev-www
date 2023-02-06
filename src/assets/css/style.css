@@ -2126,6 +2126,7 @@ footer .app_btn li:last-child {
 
 footer .bottom_footer {
     background-color: var(--bg-purple);
+    cursor: default;
 }
 
 /* footer heading and text colors variable */

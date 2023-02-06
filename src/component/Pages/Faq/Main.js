@@ -210,9 +210,9 @@ const Main = ({brdcum}) => {
                                     </a>
                                 </li>
                                 <li>
-                                    <Link to="#">
+                                    <a href={site.apple_app}>
                                     <img src="assets/images/googleplay_blue.png" alt="image" />
-                                    </Link>
+                                    </a>
                                 </li>
                                 </ul>
                             </div>
