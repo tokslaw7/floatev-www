@@ -87,24 +87,23 @@ const Routing = () => {
             {homepage && <Navbar navbar = {navbar}/>}
             <Routes>
                 <Route path="/" element={<HomeGredient setfooter = {setfooter} setnavbar = {setnavbar} setbrdcum = {setbrdcum}/>} />
-                <Route path="/about" element={< AboutUs setnavbar = {setnavbar} brdcum = {brdcum}/>} />
-                <Route path="/review" element={< Review setnavbar = {setnavbar} brdcum = {brdcum} />} />
-                <Route path="/contact" element={< Contact brdcum = {brdcum}/>} />
-                <Route path="/faq" element={< Faq brdcum = {brdcum} />} />
-                <Route path="/how_it_work" element={< Work brdcum = {brdcum} />} />
-                <Route path="/sign-in" element={< SignIn />} />
-                <Route path="/sign-up" element={< SignUp />} />
+                <Route path="/about" element={<AboutUs setnavbar = {setnavbar} brdcum = {brdcum}/>} />
+                <Route path="/review" element={<Review setnavbar = {setnavbar} brdcum = {brdcum} />} />
+                <Route path="/contact" element={<Contact brdcum = {brdcum}/>} />
+                <Route path="/faq" element={<Faq brdcum = {brdcum} />} />
+                <Route path="/how_it_work" element={<Work brdcum = {brdcum} />} />
+                <Route path="/sign-in" element={<SignIn />} />
+                <Route path="/sign-up" element={<SignUp />} />
                 <Route path="/terms" element={<Terms brdcum={brdcum} />} />
                 <Route path="/privacy" element={<Privacy brdcum={brdcum} />} />
-                <Route path="/pricing" element={< Pricing brdcum = {brdcum}/>} />
-                <Route path="/download" element={<Download brdcum = {brdcum}/>} />
-                <Route path="/blog" element={< Blog brdcum = {brdcum}/>} />
-                <Route path="/blog-single" element={< BlogSingle brdcum = {brdcum}/>} />
-                <Route path="/home-dark" element={< HomeDark setfooter = {setfooter} setnavbar = {setnavbar} setbrdcum = {setbrdcum}/>} />
-                <Route path="/home-wave" element={< HomeWave setfooter = {setfooter} setnavbar = {setnavbar} setbrdcum = {setbrdcum}/>} />
-                <Route path="/home-gredient" element={< HomeGredient setfooter = {setfooter} setnavbar = {setnavbar} setbrdcum = {setbrdcum}/>} />
-                <Route path="/home-video" element={< HomeVideo setfooter = {setfooter} setnavbar = {setnavbar} setbrdcum = {setbrdcum}/>} />
-                <Route path="/home-video2" element={< HomeVideoTwo setfooter = {setfooter} setnavbar = {setnavbar} setbrdcum = {setbrdcum}/>} />
+                <Route path="/pricing" element={<Pricing brdcum = {brdcum}/>} />
+                <Route path="/blog" element={<Blog brdcum = {brdcum}/>} />
+                <Route path="/blog-single" element={<BlogSingle brdcum = {brdcum}/>} />
+                <Route path="/home-dark" element={<HomeDark setfooter = {setfooter} setnavbar = {setnavbar} setbrdcum = {setbrdcum}/>} />
+                <Route path="/home-wave" element={<HomeWave setfooter = {setfooter} setnavbar = {setnavbar} setbrdcum = {setbrdcum}/>} />
+                <Route path="/home-gredient" element={<HomeGredient setfooter = {setfooter} setnavbar = {setnavbar} setbrdcum = {setbrdcum}/>} />
+                <Route path="/home-video" element={<HomeVideo setfooter = {setfooter} setnavbar = {setnavbar} setbrdcum = {setbrdcum}/>} />
+                <Route path="/home-video2" element={<HomeVideoTwo setfooter = {setfooter} setnavbar = {setnavbar} setbrdcum = {setbrdcum}/>} />
 
             </Routes>
             {footerpage && <Footer footer = {footer}/>}
