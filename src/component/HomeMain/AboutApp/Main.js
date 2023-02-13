@@ -5,6 +5,10 @@ import screen from '../../../assets/images/about-screen.png'
 import floatH3 from '../../../assets/images/floatH3.png'
 import floatDash from '../../../assets/images/dashboardImg.png'
 
+
+import floatPhone from "../../../assets/images/floatPhoneImg1.png";
+import floatPhone1 from "../../../assets/images/floatPhoneImg2.png";
+
 const Main = ({video , dark } ) => {
   return (
     <>
@@ -13,16 +17,12 @@ const Main = ({video , dark } ) => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="about_img" data-aos="fade-in" data-aos-duration="1500">
-                        <div className="frame_img">
-                            <img className="moving_position_animatin" src={floatH3} alt="image"/>
-                        </div>
-
                         <div className='frame'>
-                            <img className="moving_position_animatin" src={frame} alt="image"/>
+                            <img className="moving_position_animatin" src={floatPhone1} alt="image"/>
                         </div>
 
                         <div className="screen_img">
-                            <img className="moving_animation" src={floatDash} alt="image" />
+                            <img className="moving_animation" src={floatPhone} alt="image" />
                         </div>
                         </div>
                     </div>                   

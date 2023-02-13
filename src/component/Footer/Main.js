@@ -10,7 +10,7 @@ import getConfig from "../Config/config"
 
 const Main = ({footer}) => {
     var site = getConfig()[0];
-    
+        
   return (
     <>
         {footer.f1 && 
@@ -63,7 +63,6 @@ const Main = ({footer}) => {
                                 <ul>
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="/about">About us</Link></li>
-                                    <li><Link to="#">Services</Link></li>
                                     <li><a href={site.dash_url_blog} target='_blank'>Blog</a></li>
                                     <li><Link to="/contact">Contact us</Link></li>
                                 </ul>
@@ -74,7 +73,6 @@ const Main = ({footer}) => {
                             <h3>Help & Support</h3>
                                 <ul>
                                 <li><Link to="/faq">FAQs</Link></li>
-                                <li><Link to="#">Support</Link></li>
                                 <li><HashLink smooth to="/#how_it_work">How it works</HashLink></li>
                                 <li><Link to="/terms">Terms & conditions</Link></li>
                                 <li><Link to="/privacy">Privacy policy</Link></li>
@@ -162,7 +160,7 @@ const Main = ({footer}) => {
                                 <ul>
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="/about">About us</Link></li>
-                                    <li><Link to="#">Services</Link></li>
+
                                     <li><a href={site.dash_url_blog} target='_blank'>Blog</a></li>
                                     <li><Link to="/contact">Contact us</Link></li>
                                 </ul>
@@ -173,7 +171,6 @@ const Main = ({footer}) => {
                             <h3>Help & Support</h3>
                                 <ul>
                                 <li><Link to="/faq">FAQs</Link></li>
-                                <li><Link to="#">Support</Link></li>
                                 <li><Link to="/terms">Terms & conditions</Link></li>
                                 <li><Link to="/privacy">Privacy policy</Link></li>
                                 </ul>
@@ -259,7 +256,6 @@ const Main = ({footer}) => {
                             <ul>
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/about">About us</Link></li>
-                                <li><Link to="#">Services</Link></li>
                                 <li><a href={site.dash_url_blog} target='_blank'>Blog</a></li>
                                 <li><Link to="/contact">Contact us</Link></li>
                             </ul>
@@ -271,7 +267,6 @@ const Main = ({footer}) => {
                             <h3>Help & Support</h3>
                             <ul>
                                 <li><Link to="/faq">FAQs</Link></li>
-                                <li><Link to="#">Support</Link></li>
                                 <li><HashLink smooth to="/#how_it_work">How it works</HashLink></li>
                                 <li><Link to="/terms">Terms & conditions</Link></li>
                                 <li><Link to="/privacy">Privacy policy</Link></li>
@@ -358,7 +353,6 @@ const Main = ({footer}) => {
                             <ul>
                                 <li><Link to="/">Home</Link></li>
                                 <li><Link to="/about">About us</Link></li>
-                                <li><Link to="#">Services</Link></li>
                                 <li><a href={site.dash_url_blog} target='_blank'>Blog</a></li>
                                 <li><Link to="/contact">Contact us</Link></li>
                             </ul>
@@ -370,7 +364,6 @@ const Main = ({footer}) => {
                         <h3>Help & Support</h3>
                             <ul>
                             <li><Link to="/faq">FAQs</Link></li>
-                            <li><Link to="#">Support</Link></li>
                             <li><HashLink smooth to="/#how_it_work">How it works</HashLink></li>
                             <li><Link to="/terms">Terms & conditions</Link></li>
                             <li><Link to="/privacy">Privacy policy</Link></li>
@@ -459,7 +452,6 @@ const Main = ({footer}) => {
                                 <ul>
                                     <li><Link to="/">Home</Link></li>
                                     <li><Link to="/about">About us</Link></li>
-                                    <li><Link to="#">Services</Link></li>
                                     <li><a href={site.dash_url_blog}>Blog</a></li>
                                     <li><Link to="/contact">Contact us</Link></li>
                                 </ul>
@@ -470,7 +462,6 @@ const Main = ({footer}) => {
                             <h3>Help & Support</h3>
                                 <ul>
                                 <li><Link to="/faq">FAQs</Link></li>
-                                <li><Link to="#">Support</Link></li>
                                 <li><HashLink smooth to="/#how_it_work">How it works</HashLink></li>
                                 <li><Link to="/terms">Terms & conditions</Link></li>
                                 <li><Link to="/privacy">Privacy policy</Link></li>

@@ -45,18 +45,18 @@ const Main = ({navbar}) => {
                                 <Link to="/" className="nav-link" >Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link smooth to="#how_it_work" className="nav-link">How it works</Link>
+                                <Link smooth to="/#how_it_work" className="nav-link">How it works</Link>
                             </li>
-                            <li className="nav-item has_dropdown" >
-                                <Link to="#" className="nav-link">About</Link>
+                            <li className="nav-item .has_dropdown" >
+                                <Link to="/about" className="nav-link">About</Link>
                                 {/*<span className="drp_btn"><i className="icofont-rounded-down"></i></span>*/}
-                                <div className="sub_menu">
+                                {/* <div className="sub_menu">
                                     <ul>
                                         <li><Link to="/about">About Us</Link></li>
                                         <li><Link to="/contact">Contact Us</Link></li>
                                         <li><Link to="/faq">Faq</Link></li>
                                     </ul>
-                                </div>
+                                </div> */}
                             </li>
                                 <li className="nav-item">
                                     <a href={site.dash_url_blog} className="nav-link">Blog</a>
@@ -76,22 +76,19 @@ const Main = ({navbar}) => {
                             {/*    <Link smooth to="#features" className="nav-link">Features</Link>*/}
                             {/*</li>*/}
                             <li className="nav-item">
-                                <Link smooth to="#how_it_work" className="nav-link">How it works</Link>
+                                <Link smooth to="/#how_it_work" className="nav-link">How it works</Link>
                             </li>
-                            <li className="nav-item has_dropdown" onClick={() => setShow1(show1 === true ? false : true)}>
-                                <Link to="#" className="nav-link">About</Link>
-                                <span className="drp_btn"><i className="icofont-rounded-down"></i></span>
+                            <li className="nav-item .has_dropdown" onClick={() => setShow1(show1 === true ? false : true)}>
+                                <Link to="/about" className="nav-link">About</Link>
+                                {/* <span className="drp_btn"><i className="icofont-rounded-down"></i></span>
                                 <div className="sub_menu" style={{ display: show1 ? "block" : "none" }}>
                                     <ul>
                                         <li><Link to="/about">About Us</Link></li>
                                         <li><Link to="/contact">Contact Us</Link></li>
                                         <li><Link to="/faq">Faq</Link></li>
                                         <li><a href={site.dash_url_blog} className="nav-link">Blog</a></li>
-                                        {/*<li className="nav-item">*/}
-                                        {/*    <li><a href={site.dash_url_blog} className="nav-link">Blog</a></li>*/}
-                                        {/*</li>*/}
                                     </ul>
-                                </div>
+                                </div> */}
                             </li>
                             <li className="nav-item" onClick={() => setShow2(show2 === true ? false : true)}>
                                 <li><a href={site.dash_url_blog} className="nav-link">Blog</a></li>
@@ -138,19 +135,19 @@ const Main = ({navbar}) => {
                             {/*    <Link smooth to="#features" className="nav-link">Features</Link>*/}
                             {/*</li>*/}
                             <li className="nav-item">
-                                <Link smooth to="#how_it_work"  className="nav-link">How it works</Link>
+                                <Link smooth to="/#how_it_work"  className="nav-link">How it works</Link>
                             </li>
-                            <li className="nav-item has_dropdown">
-                                <Link to="#" className="nav-link">About</Link>
-                                <span className="drp_btn"><i className="icofont-rounded-down"></i></span>
-                                <div className="sub_menu">
+                            <li className="nav-item .has_dropdown">
+                                <Link to="/about" className="nav-link">About</Link>
+                                {/* <span className="drp_btn"><i className="icofont-rounded-down"></i></span> */}
+                                {/* <div className="sub_menu">
                                     <ul>
                                         <li><Link to="/about">About Us</Link></li>
                                         <li><Link to="/contact">Contact Us</Link></li>
                                         <li><Link to="/faq">Faq</Link></li>
                                         <li><a href={site.dash_url_blog} className="nav-link">Blog</a></li>
                                     </ul>
-                                </div>
+                                </div> */}
                             </li>
                             <li className="nav-item">
                                 <a href={site.dash_url_blog} className="nav-link">Blog</a>
@@ -411,18 +408,18 @@ const Main = ({navbar}) => {
                                 <Link to="/" className="nav-link">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link smooth to="#how_it_work" className="nav-link">How it works</Link>
+                                <Link smooth to="/#how_it_work" className="nav-link">How it works</Link>
                             </li>
-                            <li className="nav-item has_dropdown">
-                                <Link to="#" className="nav-link">About</Link>
+                            <li className="nav-item .has_dropdown">
+                                <Link to="/about" className="nav-link">About</Link>
                                 {/*<span className="drp_btn"><i className="icofont-rounded-down"></i></span>*/}
-                                <div className="sub_menu">
+                                {/* <div className="sub_menu">
                                     <ul>
                                         <li><Link to="/about">About Us</Link></li>
                                         <li><Link to="/contact">Contact Us</Link></li>
                                         <li><Link to="/faq">Faq</Link></li>
                                     </ul>
-                                </div>
+                                </div> */}
                             </li>
                             <li className="nav-item">
                                 <a href={site.dash_url_blog} className="nav-link">Blog</a>
@@ -442,23 +439,20 @@ const Main = ({navbar}) => {
                             {/*    <Link smooth to="#features" className="nav-link">Features</Link>*/}
                             {/*</li>*/}
                             <li className="nav-item">
-                                <Link smooth to="#how_it_work" className="nav-link">How it works</Link>
+                                <Link smooth to="/#how_it_work" className="nav-link">How it works</Link>
                             </li>
                             <li className="nav-item has_dropdown"
                                 onClick={() => setShow1(show1 === true ? false : true)}>
-                                <Link to="#" className="nav-link">About</Link>
-                                <span className="drp_btn"><i className="icofont-rounded-down"></i></span>
-                                <div className="sub_menu" style={{display: show1 ? "block" : "none"}}>
+                                <Link to="/about" className="nav-link">About</Link>
+                                {/* <span className="drp_btn"><i className="icofont-rounded-down"></i></span> */}
+                                {/* <div className="sub_menu" style={{display: show1 ? "block" : "none"}}>
                                     <ul>
                                         <li><Link to="/about">About Us</Link></li>
                                         <li><Link to="/contact">Contact Us</Link></li>
                                         <li><Link to="/faq">Faq</Link></li>
                                         <li><a href={site.dash_url_blog} className="nav-link">Blog</a></li>
-                                        {/*<li className="nav-item">*/}
-                                        {/*    <li><a href={site.dash_url_blog} className="nav-link">Blog</a></li>*/}
-                                        {/*</li>*/}
                                     </ul>
-                                </div>
+                                </div> */}
                             </li>
                             <li className="nav-item" onClick={() => setShow2(show2 === true ? false : true)}>
                                 <li><a href={site.dash_url_blog} className="nav-link">Blog</a></li>
@@ -494,18 +488,18 @@ const Main = ({navbar}) => {
                                 <Link to="/" className="nav-link">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link smooth to="#how_it_work" className="nav-link">How it works</Link>
+                                <Link smooth to="/#how_it_work" className="nav-link">How it works</Link>
                             </li>
                             <li className="nav-item has_dropdown">
-                                <Link to="#" className="nav-link">About</Link>
+                                <Link to="/about" className="nav-link">About</Link>
                                 {/*<span className="drp_btn"><i className="icofont-rounded-down"></i></span>*/}
-                                <div className="sub_menu">
+                                {/* <div className="sub_menu">
                                     <ul>
                                         <li><Link to="/about">About Us</Link></li>
                                         <li><Link to="/contact">Contact Us</Link></li>
                                         <li><Link to="/faq">Faq</Link></li>
                                     </ul>
-                                </div>
+                                </div> */}
                             </li>
                             <li className="nav-item">
                                 <a href={site.dash_url_blog} className="nav-link">Blog</a>
@@ -525,23 +519,20 @@ const Main = ({navbar}) => {
                             {/*    <Link smooth to="#features" className="nav-link">Features</Link>*/}
                             {/*</li>*/}
                             <li className="nav-item">
-                                <Link smooth to="#how_it_work" className="nav-link">How it works</Link>
+                                <Link smooth to="/#how_it_work" className="nav-link">How it works</Link>
                             </li>
                             <li className="nav-item has_dropdown"
                                 onClick={() => setShow1(show1 === true ? false : true)}>
-                                <Link to="#" className="nav-link">About</Link>
-                                <span className="drp_btn"><i className="icofont-rounded-down"></i></span>
+                                <Link to="/about" className="nav-link">About</Link>
+                                {/* <span className="drp_btn"><i className="icofont-rounded-down"></i></span>
                                 <div className="sub_menu" style={{display: show1 ? "block" : "none"}}>
                                     <ul>
                                         <li><Link to="/about">About Us</Link></li>
                                         <li><Link to="/contact">Contact Us</Link></li>
                                         <li><Link to="/faq">Faq</Link></li>
                                         <li><a href={site.dash_url_blog} className="nav-link">Blog</a></li>
-                                        {/*<li className="nav-item">*/}
-                                        {/*    <li><a href={site.dash_url_blog} className="nav-link">Blog</a></li>*/}
-                                        {/*</li>*/}
                                     </ul>
-                                </div>
+                                </div> */}
                             </li>
                             <li className="nav-item" onClick={() => setShow2(show2 === true ? false : true)}>
                                 <li><a href={site.dash_url_blog} className="nav-link">Blog</a></li>
