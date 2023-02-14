@@ -44,6 +44,11 @@ const Routing = () => {
         setfooterpage(true)
       }
     }, [location])
+    
+    // To scroll to top
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [location])
 
     useEffect(() => {
       
@@ -91,7 +96,8 @@ const Routing = () => {
                 <Route path="/review" element={<Review setnavbar = {setnavbar} brdcum = {brdcum} />} />
                 <Route path="/contact" element={<Contact brdcum = {brdcum}/>} />
                 <Route path="/faq" element={<Faq brdcum = {brdcum} />} />
-                <Route path="/how_it_work" element={<Work brdcum = {brdcum} />} />
+                {/* <Route path="/how_it_work" element={<Work brdcum = {brdcum} />} /> */}
+                <Route path="/how_it_work" component={<HomeGredient />} />
                 <Route path="/sign-in" element={<SignIn />} />
                 <Route path="/sign-up" element={<SignUp />} />
                 <Route path="/terms" element={<Terms brdcum={brdcum} />} />

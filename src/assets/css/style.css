@@ -953,21 +953,6 @@ header.fixed .navbar {
     border-radius: 20px 20px 30px 30px;
 }
 
-/* Phone Frame Image */
-.about_app_section .about_img .frame_img {
-    position: absolute;
-    width: 18.8rem;
-    height: 40rem;
-    left: 9.9px;
-    bottom: 8.8px;
-}
-
-.about_app_section .about_img .frame_img img {
-    height: 100%;
-    object-fit: cover;
-    object-position: 0% 0;
-}
-
 .about_app_section .about_img::before {
     content: "";
     position: absolute;
@@ -988,15 +973,14 @@ header.fixed .navbar {
 
 .about_app_section .about_img .screen_img {
     margin-left: -135px;
-    margin-top: 110px;
+    margin-top: 100px;
     width: 19.323rem;
 }
 
 .about_app_section .about_img .screen_img img {
     width: 100%;
-    height: 27.26rem;
-    object-fit: cover;
-    object-position: 1%;
+    height: 100%;
+    object-fit: scale-down;
 }
 
 .about_app_section .about_text .section_title {
